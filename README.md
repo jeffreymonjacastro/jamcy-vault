@@ -1,0 +1,2 @@
+# jamcy-vault
+Obsidian
