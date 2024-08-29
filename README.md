@@ -1,2 +1,2 @@
 # jamcy-vault
-Obsidian
+Obsidian vault :0
