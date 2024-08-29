@@ -38,3 +38,6 @@ Activo = Pasivo + Patrimonio
 #### Patrimonio
 ....
 
+
+> Nombres raros a Patrimonio
+
