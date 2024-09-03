@@ -56,6 +56,6 @@ $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \lambda \| W \|_1$$
 ### Elastinet
 + The union of Ridge and Lasso
 $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \rho \lambda \| W \|_1 + (1 - \rho)\lambda \| W \|_2 $$
-+ Where $\rho$ is an hyperparameter to adjust
++ Where $\rho$ is an hyperparameter to adjust L1 and L2
 
 
