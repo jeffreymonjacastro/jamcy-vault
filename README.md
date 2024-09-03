@@ -2,7 +2,7 @@
 Obsidian vault 
 
 ## Machine Learning 
-[[ML-index]]
+[[ML Index]]
 
 ## Arte y Tecnología
 [[Art-week2]]
