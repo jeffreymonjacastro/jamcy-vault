@@ -113,12 +113,19 @@ Various features
 
 #### Model (Hypothesis)
 $$h(x_i) = x_{i1}w_1 + x_{i2}w_2 + ... + x_{ik}w_k + b$$
+![[Pasted image 20240902231611.png]]
+
 #### Loss Function
 $$L = \frac{1}{2n} \sum_{i = 1}^{n}(y_i - h(x_i))^2$$
-#### Derivates
+![[Pasted image 20240902231642.png]]
+#### Derivatives
 $$\frac{\partial L}{\partial w_j} = \frac{1}{n} \sum_{i = 0}^{n}(y_i - h(x_i))(-x_{ij})$$
 Where $w_0 = b$ : $\frac{\partial L}{\partial w_0} = \frac{1}{n} \sum_{i=1}^{n} (y_i - h(x_i)) (-1)$
+![[Pasted image 20240902231704.png]]
+
 #### Update parameters
 $$w_i = w_i - \alpha \frac{\partial L}{\partial w_i}, \forall i \le n$$
+$$W = W - \alpha \frac{\partial L}{\partial w}$$
+Where $W$ is the vector of w
 #### Matrix operations
 ![[Matrix operations in k dimensions|900]]
