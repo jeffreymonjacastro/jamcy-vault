@@ -5,3 +5,4 @@
 [[No Linear Regression]]
 
 ## W3 - Clasification
+[[Classification]]
