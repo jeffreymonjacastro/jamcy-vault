@@ -1,8 +1,21 @@
 # jamcy-vault
 Obsidian vault 
 
-## Machine Learning 
+## 6th Semester
+### Machine Learning 
 [[ML Index]]
 
-## Arte y Tecnología
+### Arte y Tecnología
 [[Art-week2]]
+
+### Análisis y Diseño de Algoritmos
+[[ADA Index]]
+
+### Ética y Tecnología
+[[Ética index]]
+## Others
+### English
+[[English Index]]
+
+### Vim
+[[Vim - tutorial]]
