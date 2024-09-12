@@ -6,3 +6,6 @@
 
 ## W3 - Clasification
 [[Classification]]
+
+## W4 - Support Vector Machine
+[[Support Vector Machine]]
