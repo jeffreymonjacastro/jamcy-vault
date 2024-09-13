@@ -41,6 +41,7 @@ ___________________
 	+ Es decir, no necesita de la experiencia (solo la razón)
 	+ Nace de la **ley moral universal**, no necesariamente es una ley legal
 	+ Solo aquí hay acciones MORALMENTE BUENAS
+	+ Las emociones deben estar gobernadas por la razón
 + A POSTERIORI: post experiencia (cualquier sentido)
 	+ Experiencias vivenciales en cualquier sentido
 	+ Placeres, dolores, miedos, emociones, etc. (inclinaciones)
