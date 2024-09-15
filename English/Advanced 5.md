@@ -97,3 +97,26 @@ Third Conditional -> Regrets
 1. If I hadn't admired my informatics teacher so much, I probably wouldn't have studied Computer Science
 2. I would have been really sad and alone if I hadn't met my girlfriend, now we have almost 3 years as a couple.
 3. If I hadn't had big brothers, I would have had more responsibility in my life, so I'm glad they supported me a lot
+
+## Session 9 - 13/09
+### Vocabulary
++ **Disloyal:** Not being loyal (not romantic)
++ **Selfish:** Someone which only thinks in themselves 
++ **Guilty:** Be responsible of a crime
++ **Self-aware:** Knowing and understand yourself very well
++ **Uneven:** Not regular or consistent
++ **All-round:** Somebody who is good at a lot of different skills, academic subjects or sports
++ **Eager:** Somebody who wants something very much
+
+![[Pasted image 20240913214819.png]]
+![[Pasted image 20240913223752.png]]
+##### Answers
+1. f
+2. c
+3. g
+4. h
+5. d
+6. b
+7. a
+8. e
+

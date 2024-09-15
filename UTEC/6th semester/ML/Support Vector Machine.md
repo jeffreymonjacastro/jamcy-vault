@@ -25,3 +25,11 @@ Datos linealmente separables: Cuando existe una recta que puede separar los punt
 ![[Pasted image 20240911163222.png]]
 
 ![[SVM]]
+
+![[Pasted image 20240913091145.png]]
+![[Pasted image 20240913091517.png]]
+![[Pasted image 20240913091801.png]]
+![[Pasted image 20240913092806.png]]
+### Multiplicadores de Lagrange
+![[Pasted image 20240913102059.png]]
+Karash-Kuhn-Tucker
