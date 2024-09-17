@@ -120,3 +120,73 @@ Third Conditional -> Regrets
 7. a
 8. e
 
+
+## Session 10 - 16/07
+### Activity 9
+Describe your closest friend(s). Say
+1. How you met
+2. What you do together
+3. Why you like him/her/them
+4. What kind of person she/he is/they  are
+
+### Vocabulary
++ **Afford:** Something that you can pay
++ **Life-jacket:** An instrument to help people floating in the water
++ **Thirsty:** When you want to drink a lot of water
++ **Straightaway:**  Immediately
+
+### Activity grammar reference (p.160)
+![[Pasted image 20240916215812.png|600]]
+1. I'd love to buy that sofa **as long as** we can afford it
+2. I'll always be friends with you **even if** we may end up living in different countries
+3. They're allowed to go canoeing on condition that they wear **life-jackets**
+4. It shouldn't be too difficult **providing** just follow the instructions carefully
+5. I haven't decided yet **whether** to go to the party or not
+6. **Unless** Belinda has been invited, I won't go to the party
+7. You should take some water with you **in case** you get thirsty
+8. You'd better tell Sarah straightaway, **otherwise** she'll be upset
+
+### Activity 1
+![[Pasted image 20240916221503.png|600]]
+
+1. yes
+2. yes
+3. no
+4. yes
+
+### Activity 2
+![[Pasted image 20240916221709.png|600]]
+1. Different meaning
+	+ **A**: "Even if you phone him, he’ll be upset." implies that regardless of whether you call or not, he will still be upset.
+	- **B**: "Unless you phone him, he’ll be upset." implies that he will only be upset if you don't call him.
+1. Same meaning
+	+ Both sentences imply the same condition: arriving early allows time to eat.
+2. Same meaning
+	+ Both sentences express the same indecision about buying a ticket.
+
+### Activity 3
+![[Pasted image 20240916222334.png|600]]
+1. Even if
+2. Otherwise
+3. even if
+4. As long as
+5. whether
+
+### Activity 4
+![[Pasted image 20240916223030.png|600]]
+1. It's usually me who decides whether or not we go to eat to the chifa
+2. My friends are always fun to be with unless some of us don't do our part of the homework
+3. As long as I don't mention my exs, I get on fine with my girlfriend
+4. I would never tell anyone about my sleeping hours even if I don't
+
+### Activity 5
+![[Pasted image 20240916225705.png|600]]
+1. Unless it is
+2. Even if he doesn't
+3. long as it isn't
+4. could have gone
+5. provided that we don't
+6. depending on whether there is
+
+Opcional: MEL: UNIT 10: Use of English: Exam Maximiser. p.69 Use of English
+DO THE QUIZ

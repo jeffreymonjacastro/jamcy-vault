@@ -8,7 +8,8 @@ $$h(x_i) = x_{i}^0w_0 + \sum_{j=1}^{p}x_{i}^{j}w_j$$
 $$h(x_i) = \sum_{j=0}^{p}x_{i}^{j}w_j$$
 
 Where $p$ is the polynomial degree (hyper-parameter) 
-![[Pasted image 20240902232126.png]]
+![[Pasted image 20240902232126.png|600]]
+
 
 ### Loss Function
 $$L = \frac{1}{2n} \sum_{i=1}^{n}(y_i - h(x_i))^2 = \frac{\|Y - XW^T\|_{2}^{2}}{2n} = \frac{EE^T}{2n}$$
