@@ -190,3 +190,12 @@ Describe your closest friend(s). Say
 
 Opcional: MEL: UNIT 10: Use of English: Exam Maximiser. p.69 Use of English
 DO THE QUIZ
+
+## Session 11 - 17/07
+### Vocabulary
++ **Soulmate:** When you have an especial connection with somebody (romantically)
++ **Bring up:** To raise somebody, educate
++ **Cling:** Stick
++ **Doom to (fate):** 
+## Session 12 - 18/07
+![[Pasted image 20240918220319.png]]

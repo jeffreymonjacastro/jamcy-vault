@@ -13,6 +13,9 @@ Obsidian vault
 
 ### Ética y Tecnología
 [[Ética index]]
+
+### Finanzas Empresariales
+[[Finanzas index]]
 ## Others
 ### English
 [[English Index]]
