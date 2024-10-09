@@ -199,3 +199,48 @@ DO THE QUIZ
 + **Doom to (fate):** 
 ## Session 12 - 18/07
 ![[Pasted image 20240918220319.png]]
+## Session 
+![[Pasted image 20240923214131.png]]
+### Speaker 1 (D)
++ Not booking again
++ It been runned for the same family
++ People working there was out of date
++ No have the answers for the questions
+
+### Speaker 2 (A)
++ Quite expensive
++ Website amazing gardens (No special)
++ Near to the centre
++ Four floor 
++ Staff friendly enough
+### Speaker 3 (B)
++ Recommended hotel
++ Place completly rebuild
++ Modern views 
++ Kids happy enough near to the beach
++ Nice place when it finish
+
+### Speaker 4 (G)
++ Any couples with any kids
++ Lovely big room
++ Atmosphere quite
++ Staff helpful and friendly
++ Took a taxi to one restaurant (pretty good)
+
+### Speaker 5 (C)
++ Spend much time in hotel for business
++ Hard to Relax Was not the tipical hotel (great)
++ Peaceful
++ Staff bring dinner
++ Several families using the pool
+
+![[Pasted image 20240923214857.png]]
+24. A
+25. B
+26. A
+27. C
+28. B
+29. C
+30. B
+
+![[Pasted image 20240923220630.png]]
