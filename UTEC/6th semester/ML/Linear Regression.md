@@ -1,3 +1,6 @@
+---
+noteID: 3b1adb2f-cecf-4fca-b573-d796e45d117d
+---
 ## Univariable Linear Regression
 
 ### Model
@@ -129,3 +132,4 @@ $$W = W - \alpha \frac{\partial L}{\partial w}$$
 Where $W$ is the vector of w
 #### Matrix operations
 ![[Matrix operations in k dimensions|900]]
+
