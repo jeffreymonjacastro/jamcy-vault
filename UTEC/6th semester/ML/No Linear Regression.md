@@ -1,4 +1,4 @@
-## Univariate Polynomial Regression 
+# Univariate Polynomial Regression 
 ### Model (Hypothesis)
 $$h(x_i) = b + x_iw_1 + x_i^2w_2 + x_i^3w_3 + ... + x_i^pw_p$$
 $$h(x_i) = b + \sum_{j=1}^{p}x_{i}^{j}w_j$$
@@ -31,7 +31,7 @@ $$\frac{\partial L}{\partial w} = \frac{1}{n}[(Y-h(X))^T \times (-1)(X)]$$
 ### Uploading parameters
 $$W = W - \alpha \frac{\partial L}{\partial w}$$
 
-## Regularization
+# Regularization
 How do we decrease the complexity of our model?
 
 ![[Pasted image 20240902232546.png]]
@@ -44,20 +44,29 @@ $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \lambda \| W \|_{2}^2$$
 $$\frac{\partial L}{\partial w_j} = \frac{1}{n}[\sum_{i=0}^{n}(y_i - h(x_i))(-x_{i}^{j}) + 2\lambda w_j]$$
 
 ## Regularization Methods in Regression
-### Ridge
-+ Small values of W
+### Ridge (L2)
++ **Small values of W**
 + Generates vectors with low values
++ Square the W values
 $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \lambda \| W \|_{2}^2$$
-### Lasso
-+ Vector with multiple zero values
+### Lasso (L1)
++ **Vector with multiple zero values**
 + Generates sparse vectors
++ Absolute Value of W
 $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \lambda \| W \|_1$$
-> 
-![[Pasted image 20240903001751.png]]
+> Careful! If the parameter $\lambda$ is too big, it will cause an underfitting. Otherwise, if $\lambda$ is too small, it will cause an overfitting 
 
+![[Univariate Polynomial Regression|900]]
+
+
+![[Pasted image 20240903001751.png]]
++  The blue point represents the minimum loss  
 ### Elastinet
 + The union of Ridge and Lasso
 $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \rho \lambda \| W \|_1 + (1 - \rho)\lambda \| W \|_2 $$
 + Where $\rho$ is an hyperparameter to adjust L1 and L2
++ $\rho = [0,1]$ Indicates how much of one regularization method you want
++ $\rho = 1$ Choose Lasso and $\rho = 0$ Choose Ridge 
 
+# Measure of Regression Quality
 
