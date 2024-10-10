@@ -69,4 +69,5 @@ $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \rho \lambda \| W \|_1 + (1 - \rho)\lamb
 + $\rho = 1$ Choose Lasso and $\rho = 0$ Choose Ridge 
 
 # Measure of Regression Quality
-
+## Coefficient of determination R²
+Mean of Y predicted = $\hat Y$
