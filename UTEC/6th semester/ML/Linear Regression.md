@@ -116,8 +116,7 @@ Various features
 
 #### Model (Hypothesis)
 $$h(x_i) = x_{i1}w_1 + x_{i2}w_2 + ... + x_{ik}w_k + b$$
-![[Pasted image 20240902231611.png]]
-
+$$h(x_i) = X\times W^T$$
 #### Loss Function
 $$L = \frac{1}{2n} \sum_{i = 1}^{n}(y_i - h(x_i))^2$$
 ![[Pasted image 20240902231642.png]]
