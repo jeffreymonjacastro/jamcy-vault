@@ -24,7 +24,7 @@ Datos linealmente separables: Cuando existe una recta que puede separar los punt
 
 ![[Pasted image 20240911163222.png]]
 
-![[SVM]]
+![[SVM|900]]
 
 ![[Pasted image 20240913091145.png]]
 ![[Pasted image 20240913091517.png]]

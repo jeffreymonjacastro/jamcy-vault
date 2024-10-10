@@ -52,6 +52,7 @@ $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \lambda \| W \|_{2}^2$$
 + Vector with multiple zero values
 + Generates sparse vectors
 $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \lambda \| W \|_1$$
+> 
 ![[Pasted image 20240903001751.png]]
 
 ### Elastinet
