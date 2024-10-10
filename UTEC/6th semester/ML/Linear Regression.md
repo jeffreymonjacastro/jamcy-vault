@@ -1,7 +1,8 @@
 ---
 noteID: 3b1adb2f-cecf-4fca-b573-d796e45d117d
+tags:
 ---
-## Univariable Linear Regression
+## Univariate Linear Regression
 
 ### Model
 + $M = h(y_i) = xw + b$
@@ -82,7 +83,7 @@ Demostration:
 where $\alpha$ is a learning rate given by the user
 ### Some practice
 
-## Multivariable Linear Regression
+## Multivariate Linear Regression
 Is used for models that depends on more than one variable or feature
 ### Bidimensional (2 variables)
 Instead of a line, we need a plane that best fits the set of points

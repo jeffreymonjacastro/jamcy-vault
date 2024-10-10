@@ -1,4 +1,4 @@
-## Polynomial Regression
+## Univariate Polynomial Regression 
 ### Model (Hypothesis)
 $$h(x_i) = b + x_iw_1 + x_i^2w_2 + x_i^3w_3 + ... + x_i^pw_p$$
 $$h(x_i) = b + \sum_{j=1}^{p}x_{i}^{j}w_j$$
