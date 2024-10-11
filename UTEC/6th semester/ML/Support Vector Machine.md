@@ -38,3 +38,5 @@ Karash-Kuhn-Tucker
 The Logistic Regression can return any straight line, but not the best
 ![[Pasted image 20241010202121.png]]
 SVM find the best line that best separates both groups
+
+![[Pasted image 20241010211641.png]]
