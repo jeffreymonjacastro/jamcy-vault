@@ -2,7 +2,7 @@
 [[Linear Regression]]
 
 ## W2 - Non Linear Regression
-[[No Linear Regression]]
+[[Non Linear Regression]]
 
 ## W3 - Clasification
 [[Classification]]

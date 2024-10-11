@@ -1,3 +1,4 @@
+#Week2 #Week3
 # Univariate Polynomial Regression 
 ### Model (Hypothesis)
 $$h(x_i) = b + x_iw_1 + x_i^2w_2 + x_i^3w_3 + ... + x_i^pw_p$$
@@ -68,8 +69,7 @@ $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \rho \lambda \| W \|_1 + (1 - \rho)\lamb
 + $\rho = [0,1]$ Indicates how much of one regularization method you want
 + $\rho = 1$ Choose Lasso and $\rho = 0$ Choose Ridge 
 
-# Measure of Regression Quality
-## Coefficient of determination R²
+# Coefficient of determination R²
 Mean of Y: 
 $$\bar Y = \frac{1}{n}\sum_{i = 0}^n{y_i}$$
 Distance between y predicted and mean
@@ -81,7 +81,23 @@ $$R^2 = \frac{\sum_{i=0}^n(\hat y_i - \bar Y)^2}{\sum_{i=0}^n(y_i - \bar Y)^2} =
 + If $R^2$ is 1 the model predicts exactly the data (overfitting)
 + If $R^2$ is 0 the model doesn't predict the data (underfitting)
 ![[Pasted image 20241010190522.png|900]]
-## Adjusted R²
+# Adjusted R²
 $$R_{ajustado}^{2} = 1 - (1 - R^2) \frac{n-1}{n-p-1}$$
 ![[Pasted image 20241010190719.png|900]]
 Is not possible to determine the amount of predictors to use
+
+![[Pasted image 20241010192008.png|900]]
+
+# Training, Bias and Variance
+![[Pasted image 20241010191317.png|600]]
+![[Pasted image 20241010191336.png|600]]
+![[Pasted image 20241010191457.png|600]]
+![[Pasted image 20241010191553.png]]
+![[Pasted image 20241010191650.png]]
+![[Pasted image 20241010191857.png]]
+Overfitting: High Variance and Low Bias
+Undefitting: Low Variance and High Bias
+Optimal: Low Variance and Low Bias
+![[Pasted image 20241010192705.png]]
+# Method for evaluating the quality of generalization
+![[Pasted image 20241010192757.png]]
