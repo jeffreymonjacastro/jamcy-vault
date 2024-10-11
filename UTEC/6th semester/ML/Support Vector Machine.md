@@ -1,4 +1,4 @@
-## Logistic Regression
+# Ariana Villegas
 What is the optimization objective?
 **Likelihood:** Measures if a event x correspond to a distribution
 Is the probability that a point comes to a function (logistic regression)
@@ -34,14 +34,7 @@ Datos linealmente separables: Cuando existe una recta que puede separar los punt
 ![[Pasted image 20240913102059.png]]
 Karash-Kuhn-Tucker
 
-![[testing.pdf#page=1&rect=14,734,356,830|testing, p.1]]
-> [!PDF|sky] [[A user guide to SVM.pdf#page=1&selection=4,0,4,8&color=sky|A user guide to SVM, p.1]]
-> > Abstract
-> 
-> Skyblue
-
-> [!PDF|pink] [[A user guide to SVM.pdf#page=1&selection=6,4,6,33&color=pink|A user guide to SVM, p.1]]
-> > Support Vector Machine (SVM) 
-> 
-> Pink!
-
+# Profe Christian
+The Logistic Regression can return any straight line, but not the best
+![[Pasted image 20241010202121.png]]
+SVM find the best line that best separates both groups
