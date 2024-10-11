@@ -43,7 +43,17 @@ SVM find the best line that best separates both groups
 ![[Pasted image 20241010211641.png]]
 ## Soft SVM
 ![[Soft SVM|900]]
-### Hipothesis
+### Hypothesis
 $$h(x_i) = x_i * w^t + b$$
 ### Loss
 $$L = \frac{1}{2} \lVert w\rVert_2^2 + C\sum_{i=0}^{n} max(0,1-y_i(x_i * w^t + b))$$
+### Derivatives
+If $y_i(x_iw^t+b)<1$
+$$\frac{\partial L}{\partial w} = w + C \sum_{i=0}^n -y_ix_i$$
+else 
+$$\frac{\partial L}{\partial w} = w$$
+### Update
+If $y_i(x_iw^t+b)<1$
+$$w = w - \alpha(w+C \sum_{i=0}^n -y_ix_i)$$
+else
+$$w = w - \alpha*w$$
