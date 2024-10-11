@@ -39,4 +39,11 @@ The Logistic Regression can return any straight line, but not the best
 ![[Pasted image 20241010202121.png]]
 SVM find the best line that best separates both groups
 
+## Hard SVM
 ![[Pasted image 20241010211641.png]]
+## Soft SVM
+![[Soft SVM|900]]
+### Hipothesis
+$$h(x_i) = x_i * w^t + b$$
+### Loss
+$$L = \frac{1}{2} \lVert w\rVert_2^2 + C\sum_{i=0}^{n} max(0,1-y_i(x_i * w^t + b))$$
