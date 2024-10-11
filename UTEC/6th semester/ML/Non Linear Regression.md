@@ -101,3 +101,8 @@ Optimal: Low Variance and Low Bias
 ![[Pasted image 20241010192705.png]]
 # Method for evaluating the quality of generalization
 ![[Pasted image 20241010192757.png]]
++ A high use of Folds generates a lot of experiments, increasing its variance and reducing its bias (overfitting)
++ A low number of Folds reduce the variance but increase Bias (underfitting)
+![[Pasted image 20241010192812.png]]
+![[Pasted image 20241010193145.png]]
+![[Pasted image 20241010194516.png]]
