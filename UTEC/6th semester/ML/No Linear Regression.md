@@ -70,4 +70,18 @@ $$L = \frac{\| Y - h(X) \|_{2}^2}{2n} + \rho \lambda \| W \|_1 + (1 - \rho)\lamb
 
 # Measure of Regression Quality
 ## Coefficient of determination R²
-Mean of Y predicted = $\hat Y$
+Mean of Y: 
+$$\bar Y = \frac{1}{n}\sum_{i = 0}^n{y_i}$$
+Distance between y predicted and mean
+$$\sum_{i=0}^n(\hat y_i - \bar Y)^2 = \lVert \hat Y - \bar Y\rVert_{2}^{2}$$
+Distance between y real and Mean:
+$$\sum_{i=0}^n(y_i - \bar Y)^2 = \lVert Y - \bar Y\rVert_{2}^{2}$$
+So, the coefficient is:
+$$R^2 = \frac{\sum_{i=0}^n(\hat y_i - \bar Y)^2}{\sum_{i=0}^n(y_i - \bar Y)^2} = \frac{\lVert \hat Y - \bar Y\rVert_{2}^{2}}{\lVert Y - \bar Y\rVert_{2}^{2}}$$
++ If $R^2$ is 1 the model predicts exactly the data (overfitting)
++ If $R^2$ is 0 the model doesn't predict the data (underfitting)
+![[Pasted image 20241010190522.png|900]]
+## Adjusted R²
+$$R_{ajustado}^{2} = 1 - (1 - R^2) \frac{n-1}{n-p-1}$$
+![[Pasted image 20241010190719.png|900]]
+Is not possible to determine the amount of predictors to use
