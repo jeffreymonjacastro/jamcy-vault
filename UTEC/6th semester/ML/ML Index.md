@@ -12,3 +12,13 @@
 
 # W6 - Decision Tree
 [[Decision Tree]]
+
+# W7 - Dimensionality Reduction
+PCA
+LDA
+NMF
+t-SNE
+umap
+
+# W9 - Clustering
+Kmeans
