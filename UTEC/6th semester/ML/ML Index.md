@@ -39,3 +39,6 @@ W12S2 - MLP 2: https://utec.zoom.us/rec/play/lC74lrsySGS6l-keCOfeNZyK7C5XYAQ64uB
 # W13 - Convolutional Neural Network: CNN
 W13S2 - CNN: https://utec.zoom.us/rec/play/2fVpGCIsu0uRJ91DIjiCpfKXARa3DWjGBXXJDGwkJp99DlHXRdvyJrfsntxFeTcxa351dSajEOlIGXIR.JIxHJ6oASRGKB4rq
 W13S3 - CNN 2: https://utec.zoom.us/rec/play/BswHpb868hEHzOGInc-vuTccf9MI2ttzLZI0nFrUWDJ4yF0P81A_CBxJm0BvBCznhWqU8Wh4Y1HAVqq-.YrX0-Z4fUk2HETiS
+
+# W14 - Recursive Neural Network: RNN
+W14S2 - RNN: https://utec.zoom.us/rec/play/hWiaJX-NtESUQ7PCcTc0iYEzp67UtpCFt--qFiqTPmkM9ucD4xaSBmaYiPXK4_9_oFJPZAosAgJm3GVg.LQip7e49ZwpetAk4
