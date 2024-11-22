@@ -33,8 +33,8 @@ W11S1 - Spectral Clustering: https://utec.zoom.us/rec/play/2i2hiOIxCiCswkNw3TIXH
 W11S2 - Clustering Evaluation Methods: https://utec.zoom.us/rec/play/bAyykgnvqRB4QAbQsrc5lVn8F19HeF0h0vMkH9edFMW5zZR5Yz-ndP64Go6nhs8Ej9IeORk1SEO8um4.BJoAKBuA7XKn4r2T
 
 # W12 - Neural Networks: MLP
-W12S1 - MLP: https://utec.zoom.us/rec/play/O5F2qQFZPMk4-AMUyBAQ-6m9W7wbxzt9lzE_x33JXysnQBgmL2CqkkVjyUK7mCZMIl4IbCwX48OoyTU.LJ_iGUHsBbT6MIji
-W12S2 - MLP 2: https://utec.zoom.us/rec/play/lC74lrsySGS6l-keCOfeNZyK7C5XYAQ64uBajEQeBydMgZuNm_IVenwupBYnTxVf1ef4XGCRZHUiAcPa.dzkR7r4P2lslmmIq
+:LiCheckSquare: W12S1 - MLP: https://utec.zoom.us/rec/play/O5F2qQFZPMk4-AMUyBAQ-6m9W7wbxzt9lzE_x33JXysnQBgmL2CqkkVjyUK7mCZMIl4IbCwX48OoyTU.LJ_iGUHsBbT6MIji 
+W12S2 - MLP 2: https://utec.zoom.us/rec/play/lC74lrsySGS6l-keCOfeNZyK7C5XYAQ64uBajEQeBydMgZuNm_IVenwupBYnTxVf1ef4XGCRZHUiAcPa.dzkR7r4P2lslmmIq 
 
 # W13 - Convolutional Neural Network: CNN
 W13S2 - CNN: https://utec.zoom.us/rec/play/2fVpGCIsu0uRJ91DIjiCpfKXARa3DWjGBXXJDGwkJp99DlHXRdvyJrfsntxFeTcxa351dSajEOlIGXIR.JIxHJ6oASRGKB4rq
