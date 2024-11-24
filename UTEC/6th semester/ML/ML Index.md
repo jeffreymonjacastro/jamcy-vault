@@ -41,5 +41,5 @@ W11S2 - Clustering Evaluation Methods: https://utec.zoom.us/rec/play/bAyykgnvqRB
 :LiCheckSquare: W13S3 - CNN 2: https://utec.zoom.us/rec/play/BswHpb868hEHzOGInc-vuTccf9MI2ttzLZI0nFrUWDJ4yF0P81A_CBxJm0BvBCznhWqU8Wh4Y1HAVqq-.YrX0-Z4fUk2HETiS
 
 # W14 - Recursive Neural Network: RNN
-W14S2 - RNN: https://utec.zoom.us/rec/play/hWiaJX-NtESUQ7PCcTc0iYEzp67UtpCFt--qFiqTPmkM9ucD4xaSBmaYiPXK4_9_oFJPZAosAgJm3GVg.LQip7e49ZwpetAk4
+:LiCheckSquare: W14S2 - RNN: https://utec.zoom.us/rec/play/hWiaJX-NtESUQ7PCcTc0iYEzp67UtpCFt--qFiqTPmkM9ucD4xaSBmaYiPXK4_9_oFJPZAosAgJm3GVg.LQip7e49ZwpetAk4
 W14S3 - LSTM: https://utec.zoom.us/rec/play/Q-ZMIVqha8qd35qtNMSlEIKcXB6hCfaZN_4VJWfxwqjvMrQwTzHYaVKZolvE3_Cy6I4T1MJpJyJGMWIs.bWTVDTRNA2AdoTmR
