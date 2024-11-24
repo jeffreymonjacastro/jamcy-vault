@@ -34,7 +34,7 @@ W11S2 - Clustering Evaluation Methods: https://utec.zoom.us/rec/play/bAyykgnvqRB
 
 # W12 - Neural Networks: MLP
 :LiCheckSquare: W12S1 - MLP: https://utec.zoom.us/rec/play/O5F2qQFZPMk4-AMUyBAQ-6m9W7wbxzt9lzE_x33JXysnQBgmL2CqkkVjyUK7mCZMIl4IbCwX48OoyTU.LJ_iGUHsBbT6MIji 
-W12S2 - MLP 2: https://utec.zoom.us/rec/play/lC74lrsySGS6l-keCOfeNZyK7C5XYAQ64uBajEQeBydMgZuNm_IVenwupBYnTxVf1ef4XGCRZHUiAcPa.dzkR7r4P2lslmmIq 
+:LiCheckSquare: W12S2 - MLP 2: https://utec.zoom.us/rec/play/lC74lrsySGS6l-keCOfeNZyK7C5XYAQ64uBajEQeBydMgZuNm_IVenwupBYnTxVf1ef4XGCRZHUiAcPa.dzkR7r4P2lslmmIq 
 
 # W13 - Convolutional Neural Network: CNN
 W13S2 - CNN: https://utec.zoom.us/rec/play/2fVpGCIsu0uRJ91DIjiCpfKXARa3DWjGBXXJDGwkJp99DlHXRdvyJrfsntxFeTcxa351dSajEOlIGXIR.JIxHJ6oASRGKB4rq
