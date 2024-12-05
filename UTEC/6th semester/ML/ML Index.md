@@ -7,13 +7,18 @@
 # W3 - Clasification
 [[Classification]]
 
-# W4/W5 - Support Vector Machine
+# W4 - Ariana Villegas
+W4S2 - Logistic Regression & SVM: https://utec.zoom.us/rec/play/X8iZIs5iZ91xBw5FQCenDaPXC1SA699p0AEdD3R7giwTetXeNLoWZhxNi7_cMBxAwQ2Z4Ws61KHkWBWn.aa_9pAZI-0_sakse
+W4S3 - SVM: 
+# W5 - Support Vector Machine
 [[Support Vector Machine]]
+W5S1 - SVM 2: https://utec.zoom.us/rec/play/_RZt0ZPtiUZvq9REYVNLyh8YPoXsajZjRaigop-sCv29i32ruuar9sj_v6eciaxSu0yYanPlNeZRA7ZY.uLi6aXf2wOi3Z8yh
 
 # W6 - Decision Tree
 [[Decision Tree]]
 W6S1 - Decision Tree: https://utec.zoom.us/rec/play/Pmcm4wUnsomD1drZ_L74ka-542gzbLCRMQ-jXQO-HTQ2ubyeH03CyOxGOvYj8G-AJfEE8KPqKef3v3ru.4FxWwqfstousWm6l
-W6S2 - Decision Tree 2: https://utec.zoom.us/rec/play/9Dq_uves8CCzycPQ6HfaavaKARkbEV8mtiTwfNX_Ofa5I1w71gVrP_UOuI5H2YwYl1WS3lmEKd3RMDfJ.OHBlmo5P0aUugwEB
+W6S2 - Decision Tree 2, KNN & Classification Metrics: https://utec.zoom.us/rec/play/9Dq_uves8CCzycPQ6HfaavaKARkbEV8mtiTwfNX_Ofa5I1w71gVrP_UOuI5H2YwYl1WS3lmEKd3RMDfJ.OHBlmo5P0aUugwEB
+W6S3 - Classification Metrics 2: https://utec.zoom.us/rec/play/jmLcbc-pxr7cx1WyJq3e6ss0l55-ZwgDAlidjdL8MbT4xjWhNdsZeUYDFVn_znFLQvn_yPxFi8_s2n3i.91QBIKZvHi7--T0f
 
 # W7 - Dimensionality Reduction
 W7S1 - PCA & LDA: https://utec.zoom.us/rec/play/tOVW-Bz3ieJljHxOX51A7wbUhuutcEhjQIqXfKZDpT2DnTNoS_kY5wMYibJJLGczEGGBT3gYyI1ZQtZl.R7K7mAGazGDrARml
