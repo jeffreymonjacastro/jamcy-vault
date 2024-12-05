@@ -20,6 +20,10 @@ NMF
 t-SNE
 umap
 
+# W8 - Random Projections
+W8S1 - Random Projections & t-SNE: https://utec.zoom.us/rec/play/5mkKLq90TArbGaRRDevciI0Dp_NF-LuiX5nOgzSlujWadL39FikMl0SxHyndwwpBaxxF3LRf8dEdncz7.xiLSyJuI2TVYT_Js
+
+
 # W9 - Clustering
 W9S1 - Kmeans y MeanShift: https://utec.zoom.us/rec/play/DsZFcbRgUHc7x1sOJsU6yC-xt_-FvOuxWcl4l732pJUdNqa3WXY9afLmQFaodgPpi3PSS-4gm4j6ru9m.29n6O9jNHxCZrvRd
 W9S2 - Agglomerative, DBScan:  https://utec.zoom.us/rec/play/r122THTiAl1keYl0Lrj20rI_muH6Fexej2mo79m4iu2LuQU-Fx6bd0I6UyGJLa7Y1e9MsgTUULPr-7U.1FCXjSxYkTvKdbe2
