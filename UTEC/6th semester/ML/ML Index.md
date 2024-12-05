@@ -12,17 +12,16 @@
 
 # W6 - Decision Tree
 [[Decision Tree]]
+W6S1 - Decision Tree: https://utec.zoom.us/rec/play/Pmcm4wUnsomD1drZ_L74ka-542gzbLCRMQ-jXQO-HTQ2ubyeH03CyOxGOvYj8G-AJfEE8KPqKef3v3ru.4FxWwqfstousWm6l
+W6S2 - Decision Tree 2: https://utec.zoom.us/rec/play/9Dq_uves8CCzycPQ6HfaavaKARkbEV8mtiTwfNX_Ofa5I1w71gVrP_UOuI5H2YwYl1WS3lmEKd3RMDfJ.OHBlmo5P0aUugwEB
 
 # W7 - Dimensionality Reduction
-PCA
-LDA
-NMF
-t-SNE
-umap
+W7S1 - PCA & LDA: https://utec.zoom.us/rec/play/tOVW-Bz3ieJljHxOX51A7wbUhuutcEhjQIqXfKZDpT2DnTNoS_kY5wMYibJJLGczEGGBT3gYyI1ZQtZl.R7K7mAGazGDrARml
+W7S2 - LDA, SVD, NMF: https://utec.zoom.us/rec/play/4tzPv6GbS2EnTMX-USIy1LuC_tjpfzpGRCKB0XvvGO-wvJL45FsntfEHudbQeSLVYdMduLjiAZ_a8SqU.65yS61VdauCT4i7z
 
-# W8 - Random Projections
-W8S1 - Random Projections & t-SNE: https://utec.zoom.us/rec/play/5mkKLq90TArbGaRRDevciI0Dp_NF-LuiX5nOgzSlujWadL39FikMl0SxHyndwwpBaxxF3LRf8dEdncz7.xiLSyJuI2TVYT_Js
-
+# W8 - Dimensionality Reduction x2
+W8S1 - Random Projections, t-SNE & UMAP: https://utec.zoom.us/rec/play/5mkKLq90TArbGaRRDevciI0Dp_NF-LuiX5nOgzSlujWadL39FikMl0SxHyndwwpBaxxF3LRf8dEdncz7.xiLSyJuI2TVYT_Js
+W8S2 - Repasito EP: https://utec.zoom.us/rec/play/dMRHmJOaPGlxWD-PVJBChoVn2R89KGXr0CrDvnmUBk1j5lcDtadybfshtbtat2I1-MaI5WeF44ujnQq6.-C5GEOrb4EenoVXj
 
 # W9 - Clustering
 W9S1 - Kmeans y MeanShift: https://utec.zoom.us/rec/play/DsZFcbRgUHc7x1sOJsU6yC-xt_-FvOuxWcl4l732pJUdNqa3WXY9afLmQFaodgPpi3PSS-4gm4j6ru9m.29n6O9jNHxCZrvRd
@@ -47,3 +46,5 @@ W11S2 - Clustering Evaluation Methods: https://utec.zoom.us/rec/play/bAyykgnvqRB
 # W14 - Recursive Neural Network: RNN
 :LiCheckSquare: W14S2 - RNN: https://utec.zoom.us/rec/play/hWiaJX-NtESUQ7PCcTc0iYEzp67UtpCFt--qFiqTPmkM9ucD4xaSBmaYiPXK4_9_oFJPZAosAgJm3GVg.LQip7e49ZwpetAk4
 W14S3 - LSTM: https://utec.zoom.us/rec/play/Q-ZMIVqha8qd35qtNMSlEIKcXB6hCfaZN_4VJWfxwqjvMrQwTzHYaVKZolvE3_Cy6I4T1MJpJyJGMWIs.bWTVDTRNA2AdoTmR
+
+# W15 - 
