@@ -1,15 +1,18 @@
 # W1 - Linear Regression
 [[Linear Regression]]
+W1S2 - Linear Regression: https://utec.zoom.us/rec/play/03gkVIxVrWVz0XrvCdG-eOqExOJYrS9oB-iLhQfMJJSNg16RKGEFwtfAbVwZMM0ZYUF3v33Tfp77Q6yu.dFu8axsA2mLFBF_J
 
 # W2 - Non Linear Regression
 [[Non Linear Regression]]
-
+W2S1 - Linear Regression K dimensional, Non Linear Regression: https://utec.zoom.us/rec/play/3JUH5C6rq8J6VfVEtSeeIVDAsOKcWjVQ6DI0g5fWFQLbTXm98a50Bb02TsF1yBvtR-cZzTMbQVgNoZx0.aA0_ODjeOR1x6Ts4
+W2S2 - Regularization: https://utec.zoom.us/rec/play/t-C2ipJ6nKyIVMPyT4_4rCtnCEOEk24gyY7zOAgGzIBLtNov7PAPcPJjsIG8i_wiRvyTSAeQ-BcbZ59A.GTsm7y_m75Dztpi7
 # W3 - Clasification
 [[Classification]]
+W3S1 - Underfitting, overfitting, Lasso, Ridge, Elastinet, Logistic Regression: https://utec.zoom.us/rec/play/PyQEXn-C61rx-g75PZEuiVz0Qp_OQi1PP1AospvlI8y8vR_08fpHtjEwHLnsGljqolGHT2jnVrECz9OI.jHBWolJHSJmX_p3k
 
 # W4 - Ariana Villegas
 W4S2 - Logistic Regression & SVM: https://utec.zoom.us/rec/play/X8iZIs5iZ91xBw5FQCenDaPXC1SA699p0AEdD3R7giwTetXeNLoWZhxNi7_cMBxAwQ2Z4Ws61KHkWBWn.aa_9pAZI-0_sakse
-W4S3 - SVM: 
+W4S3 - SVM: https://utec.zoom.us/rec/play/p310sPDiq6MthRHsrycTeLucuaLRNbqZLjHE8xh6v9xOVeWhUqpev5eq_Mp0A6b0GvwhL4qKhKSNkQDN.3Sza7Q9Dskvlt-fd
 # W5 - Support Vector Machine
 [[Support Vector Machine]]
 W5S1 - SVM 2: https://utec.zoom.us/rec/play/_RZt0ZPtiUZvq9REYVNLyh8YPoXsajZjRaigop-sCv29i32ruuar9sj_v6eciaxSu0yYanPlNeZRA7ZY.uLi6aXf2wOi3Z8yh
@@ -52,4 +55,5 @@ W11S2 - Clustering Evaluation Methods: https://utec.zoom.us/rec/play/bAyykgnvqRB
 :LiCheckSquare: W14S2 - RNN: https://utec.zoom.us/rec/play/hWiaJX-NtESUQ7PCcTc0iYEzp67UtpCFt--qFiqTPmkM9ucD4xaSBmaYiPXK4_9_oFJPZAosAgJm3GVg.LQip7e49ZwpetAk4
 W14S3 - LSTM: https://utec.zoom.us/rec/play/Q-ZMIVqha8qd35qtNMSlEIKcXB6hCfaZN_4VJWfxwqjvMrQwTzHYaVKZolvE3_Cy6I4T1MJpJyJGMWIs.bWTVDTRNA2AdoTmR
 
-# W15 - 
+# W15 - Nothing
+W15S2 - Repasito Final: https://utec.zoom.us/rec/play/EVKnGT1nksO8A3lPIianqcGLFdMzChv_H-AUcTgsjPpFbAGPgjuXaIdOi6PwnhoDNygYUuM3w-t-QDI.g-mfEjZfYST5SniX
