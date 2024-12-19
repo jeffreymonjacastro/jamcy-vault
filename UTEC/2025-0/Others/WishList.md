@@ -41,6 +41,7 @@
 + Entrenar Programación Competitiva
 	+ Codeforces
 	+ LeetCode
+	+ CSES
 + Dominar VIM
 + Proyectos de Software
 	+ Hacer un portafolio con proyectos personales
