@@ -37,8 +37,26 @@
 		+ Hill Climbing
 + Estudiar SO
 + Estudiar EDA
++ Estudiar IHC
 + Entrenar Programación Competitiva
 	+ Codeforces
 	+ LeetCode
 + Dominar VIM
++ Hacer un portafolio con proyectos personales
++ Practicar FullStack
+	+ Frontend
+		+ Typescript
+		+ React
+		+ Nextjs
+	+ Backend
+		+ Springboot
+		+ Django
++ Estudiar Cloud Computing
+	+ AWS
+	+ Azure
+	+ Google Cloud
++ Estudiar DevOps
++ Estudiar Github
++ Mejorar mi CV
++ Postular a ofertas laborales
 + 
