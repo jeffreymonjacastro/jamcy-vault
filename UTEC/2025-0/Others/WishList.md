@@ -25,7 +25,20 @@
 			+ DFS
 		+ Single-Source Shortest Path (SSSP)
 			+ Dijkstra
+			+ Bellman Ford (ADA)
 			+ Greedy BFS
 			+ A*
 		+ All Pairs Shortest Path (APSP)
 			+ Floyd-Warshall
+			+ Johnson (ADA)
+	+ Sparse Matrix
+	+ Backtracking
+		+ Optimización
+		+ Hill Climbing
++ Estudiar SO
++ Estudiar EDA
++ Entrenar Programación Competitiva
+	+ Codeforces
+	+ LeetCode
++ Dominar VIM
++ 
