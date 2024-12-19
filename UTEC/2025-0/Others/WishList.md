@@ -42,7 +42,11 @@
 	+ Codeforces
 	+ LeetCode
 + Dominar VIM
-+ Hacer un portafolio con proyectos personales
++ Proyectos de Software
+	+ Hacer un portafolio con proyectos personales
+	+ Desarrollar una aplicación para gestionar los recursos guardados
+	+ Terminar la aplicación para gestionar compras diarias
+	+ Proyecto de Web Scrapping
 + Practicar FullStack
 	+ Frontend
 		+ Typescript
@@ -59,4 +63,7 @@
 + Estudiar Github
 + Mejorar mi CV
 + Postular a ofertas laborales
-+ 
++ Estudiar Inglés
++ Ir al gym
++ Revivir mi LinkedIn y Instagram
++ Terminar el whatsapp analysis
