@@ -4,4 +4,4 @@
 - Front End React Developer, Sophilabs
 - Front End React Engineer, Sophilabs
 - Junio Python Developer, Sophilabs
-- Front-end Developer Jr, CBC
+- Front-end Developer Jr, Global Mobility Apex S.A.C.
