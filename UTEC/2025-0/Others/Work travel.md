@@ -20,6 +20,7 @@
 - React Developer, Infosys
 - Desarrollador Full Stack Jr, Agencia GATO
 - Web Developer, Hapi App
-- 
+- Desarrollador Frontend, Altimea
+- Desarrollador Nodejs / AWS
 
 As a Computer Science student I have developed the capability of problem solving and computer thinking, as the person you are looking for. My experience in software development relies on many proyects, alone and in a team, that I contributed, and also being a teacher in the course of platform based development on my college.
