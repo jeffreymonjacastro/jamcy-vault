@@ -5,27 +5,31 @@
 
 # Jobs Applied
 
-| Job                                          | Company                     | Pass    |
-| -------------------------------------------- | --------------------------- | ------- |
-| JavaScript Developer                         | Launchpad                   |         |
-| Front-End Developer (React + Next.js)        | Launchpad                   |         |
-| Junior Software Engineer (LATAM)             | Sezzle                      |         |
-| Front End React Developer                    | Sophilabs                   |         |
-| Front End React Engineer                     | Sophilabs                   |         |
-| Junior Python Developer                      | Sophilabs                   |         |
-| Front-end Developer Jr                       | Global Mobility Apex S.A.C. |         |
-| Practicante Pre Profesional Otras posiciones | BCP                         |         |
-| Practicante Pre Profesional MLOps / Culqui   | ADECCO PERU S.A.            |         |
-| Practicante de Canales Digitales             | Mibanco                     | YES     |
-| Desarrollador de front-end                   | Bluepoint AI                | REFUSED |
-| Desarrollador de back-end                    | Bluepoint AI                | REFUSED |
-| Junior React Developer                       | Workling                    |         |
-| React Developer                              | Infosys                     | REFUSED |
-| Desarrollador Full Stack Jr                  | Agencia GATO                |         |
-| Web Developer                                | Hapi App                    |         |
-| Desarrollador Frontend                       | Altimea                     |         |
-| Desarrollador Nodejs / AWS                   | Indra                       |         |
-| React Developer                              | EX Squared LATAM            |         |
+## LinkedIn
+
+| Job                                          | Company                     | Pass |
+| -------------------------------------------- | --------------------------- | ---- |
+| JavaScript Developer                         | Launchpad                   |      |
+| Front-End Developer (React + Next.js)        | Launchpad                   |      |
+| Junior Software Engineer (LATAM)             | Sezzle                      |      |
+| Front End React Developer                    | Sophilabs                   |      |
+| Front End React Engineer                     | Sophilabs                   |      |
+| Junior Python Developer                      | Sophilabs                   |      |
+| Front-end Developer Jr                       | Global Mobility Apex S.A.C. |      |
+| Practicante Pre Profesional Otras posiciones | BCP                         |      |
+| Practicante Pre Profesional MLOps / Culqui   | ADECCO PERU S.A.            |      |
+| Practicante de Canales Digitales             | Mibanco                     | YES  |
+| Desarrollador de front-end                   | Bluepoint AI                | NO   |
+| Desarrollador de back-end                    | Bluepoint AI                | NO   |
+| Junior React Developer                       | BairesDev                   | YES  |
+| React Developer                              | Infosys                     | NO   |
+| Desarrollador Full Stack Jr                  | Agencia GATO                |      |
+| Web Developer                                | Hapi App                    |      |
+| Desarrollador Frontend                       | Altimea                     |      |
+| Desarrollador Nodejs / AWS                   | Indra                       |      |
+| React Developer                              | EX Squared LATAM            |      |
+| IT Software Engineering Intern               | Pinterest                   |      |
+| IT System Engineering Intern                 | Pinterest                   |      |
 
 
 # Full Stack roles
