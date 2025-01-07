@@ -1,6 +1,8 @@
 # Find a job pages
 ## Peru
 - [Laborum](https://www.laborum.pe)
+- [BairesDev](https://applicants.bairesdev.com/home?lang=es)
+- 
 
 
 # Jobs Applied
@@ -21,7 +23,7 @@
 | Practicante de Canales Digitales             | Mibanco                     | YES  |
 | Desarrollador de front-end                   | Bluepoint AI                | NO   |
 | Desarrollador de back-end                    | Bluepoint AI                | NO   |
-| Junior React Developer                       | BairesDev                   | YES  |
+| Junior React Developer                       | Workling                    |      |
 | React Developer                              | Infosys                     | NO   |
 | Desarrollador Full Stack Jr                  | Agencia GATO                |      |
 | Web Developer                                | Hapi App                    |      |
