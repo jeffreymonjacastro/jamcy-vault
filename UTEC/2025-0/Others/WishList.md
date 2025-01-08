@@ -24,5 +24,18 @@ Achievable: Realista según tus recursos
 Relevant: alinéala con tus prioridades
 Temporary: Establece un plazo
 
-## 
-![[Objectives]]
+## bbb
+`![[file-folder/file-name#sheet-name|sri-sci:eri-eci<sheet-height>{html}]]`
+
+- `sri`: Start row index
+- `eri`: End row index
+- `sci`: Start column index
+- `eci`: End column index
+- `{html}`: Whether to display as HTML
+- `<sheet-height>`: Sheet height, dispaly HTML not work
+
+
+
+![[Objectives#sheet1|1-0:10:5]]
+
+
