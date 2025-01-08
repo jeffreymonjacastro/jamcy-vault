@@ -1,70 +1,25 @@
-+ Reforzar las estructuras de datos de AED
-	+ Sorting
-		+ Merge Sort
-		+ Quick Sort
-		+ Heap Sort
-	+ Linked List
-		+ Simple Linked List
-		+ Double Linked List
-		+ Circular Linked List
-		+ Stack & Queue
-	+ Hash Table 
-	+ Binary Search Tree (BST)
-	+ AVL
-	+ Heaps
-		+ Max-Heap
-		+ Min-Heap
-	+ Disjoint Set Union
-	+ B Trees
-	+ Tries
-		+ Patricia Trie
-		+ Suffix Tree
-	+ Graphs
-		+ Searching
-			+ BFS
-			+ DFS
-		+ Single-Source Shortest Path (SSSP)
-			+ Dijkstra
-			+ Bellman Ford (ADA)
-			+ Greedy BFS
-			+ A*
-		+ All Pairs Shortest Path (APSP)
-			+ Floyd-Warshall
-			+ Johnson (ADA)
-	+ Sparse Matrix
-	+ Backtracking
-		+ Optimización
-		+ Hill Climbing
-+ Estudiar SO
-+ Estudiar EDA
-+ Estudiar IHC
-+ Entrenar Programación Competitiva
-	+ Codeforces
-	+ LeetCode
-	+ CSES
-+ Dominar VIM
-+ Proyectos de Software
-	+ Hacer un portafolio con proyectos personales
-	+ Desarrollar una aplicación para gestionar los recursos guardados
-	+ Terminar la aplicación para gestionar compras diarias
-	+ Proyecto de Web Scrapping
-+ Practicar FullStack
-	+ Frontend
-		+ Typescript
-		+ React
-		+ Nextjs
-	+ Backend
-		+ Springboot
-		+ Django
-+ Estudiar Cloud Computing
-	+ AWS
-	+ Azure
-	+ Google Cloud
-+ Estudiar DevOps
-+ Estudiar Github
-+ Mejorar mi CV
-+ Postular a ofertas laborales
-+ Estudiar Inglés
-+ Ir al gym
-+ Revivir mi LinkedIn y Instagram
-+ Terminar el whatsapp analysis
+
+| Actividad                                    | Detalles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Área         | Prioridad |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------- |
+| Reforzar las estructuras de datos de AED     | + Sorting<br>	+ Merge Sort<br>	+ Quick Sort<br>	+ Heap Sort<br>+ Linked List<br>	+ Simple Linked List<br>	+ Double Linked List<br>	+ Circular Linked List<br>	+ Stack & Queue<br>+ Hash Table <br>+ Binary Search Tree (BST)<br>+ AVL<br>+ Heaps<br>	+ Max-Heap<br>	+ Min-Heap<br>+ Disjoint Set Union<br>+ B Trees<br>+ Tries<br>	+ Patricia Trie<br>	+ Suffix Tree<br>+ Graphs<br>	+ Searching<br>		+ BFS<br>		+ DFS<br>	+ Single-Source Shortest Path (SSSP)<br>		+ Dijkstra<br>		+ Bellman Ford (ADA)<br>		+ Greedy BFS<br>		+ A*<br>	+ All Pairs Shortest Path (APSP)<br>		+ Floyd-Warshall<br>		+ Johnson (ADA)<br>+ Sparse Matrix<br>+ Backtracking<br>	+ Optimización<br>	+ Hill Climbing | Programación |           |
+| Estudiar SO                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Universidad  |           |
+| Estudiar EDA                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Universidad  |           |
+| Estudiar IHC                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Universidad  |           |
+| Entrenar Programación Competitiva            | + Codeforces<br>+ LeetCode<br>+ CSES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Programación |           |
+| Dominar VIM                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Hobbie       |           |
+| Proyectos de Software                        | + Hacer un portafolio con proyectos personales<br>+ Desarrollar una aplicación para gestionar los recursos guardados<br>+ Terminar la aplicación para gestionar compras diarias<br>+ Proyecto de Web Scrapping<br>+ Whatsapp analysis con ML                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Trabajo      |           |
+| Practicar FullStack                          | + Frontend<br>	+ Typescript<br>	+ React<br>	+ Nextjs<br>+ Backend<br>	+ Springboot<br>	+ Django                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Hobbie       |           |
+| Estudiar Cloud Computing                     | + AWS<br>+ Azure<br>+ Google Cloud                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Hobbie       |           |
+| Estudiar DevOps                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Hobbie       |           |
+| Estudiar Github                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Hobbie       |           |
+| Mejorar mi CV y postular a ofertas laborales |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Trabajo      |           |
+| Estudiar Inglés                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Idiomas      |           |
+| Hacer ejercicio y bajar de peso              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Hobbie       |           |
+| Ser más activo en LinkedIn e Instagram       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Hobbie       |           |
+
+## Modelo SMART
+Specific: Haz tu meta clara y detallada
+Measurable: Define un indicador
+Achievable: Realista según tus recursos
+Relevant: alinéala con tus prioridades
+Temporary: Establece un plazo
