@@ -23,3 +23,6 @@ Measurable: Define un indicador
 Achievable: Realista según tus recursos
 Relevant: alinéala con tus prioridades
 Temporary: Establece un plazo
+
+## 
+![[Objectives]]
