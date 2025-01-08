@@ -31,6 +31,10 @@
 ![[Pasted image 20250107182637.png]]
 
 # Sistema de evaluación
-![[Pasted image 20250107182713.png]]
+![[Pasted image 20250107182713.png|1000]]
 
 En la EC: Todo lo que tenga que ver con participar y hablar suma
+
+# Fundamentos de Evaluación Financiera de Proyectos
+![[Pasted image 20250107195348.png]]
+
