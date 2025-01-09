@@ -36,6 +36,4 @@ Temporary: Establece un plazo
 
 
 
-![[Objectives#sheet1|1-0:10:5]]
 
-![[Objectives#sheet1|1-0:11-6]]
