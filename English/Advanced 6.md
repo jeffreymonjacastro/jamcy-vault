@@ -18,3 +18,11 @@
 + **Stifles:**
 + **Earth-shattering:**
 + **Right away:**
+
+## Session 2 - 09/01
+### Vocabulary
+- Expand your horizons
+- Live to regret it
+- Mind-numbing
+- End in tears
+- Throw yourself in at the deep end
