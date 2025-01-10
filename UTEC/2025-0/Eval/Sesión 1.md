@@ -52,3 +52,4 @@ Si el ROA es menor a la inflación, la utilidad neta de la empresa no rinde
 ![[Pasted image 20250109184656.png]]
 ![[Pasted image 20250109185135.png]]
 ![[Pasted image 20250109190535.png]]
+
