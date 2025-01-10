@@ -26,3 +26,10 @@
 - Mind-numbing
 - End in tears
 - Throw yourself in at the deep end
+
+## Session 3 - 10/01
+![[Pasted image 20250110160618.png]]
+1. I think I'd have chosen to be Japanese because I love the culture there
+2. I consider I'd be Terence Tao, Mathematic Peruvian
+3. I think I'd have accepted the job oportunity of audit and finance
+4. I consider it would have affected my relationship 
