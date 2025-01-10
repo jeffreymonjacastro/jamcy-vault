@@ -92,4 +92,18 @@
 - **Overwork**: Work excessively or beyond capacity.
     - _I overworked last week, and now I’m feeling burnt out._
 
-![[Pasted image 20250110164512.png]]
+![[Pasted image 20250110164742.png]]
+Pregunta 1: He tried various therapies and accepting he will make mistakes and it wouldn't be always perfect
+Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient, counterproductive. 
+
+1. Accuracy
+2. Incapable
+3. Various
+4. Critical
+5. Perfection
+6. Solution
+7. Axiety
+8. Regain
+
+![[Pasted image 20250110170433.png]]
+
