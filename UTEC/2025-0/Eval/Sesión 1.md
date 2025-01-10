@@ -47,3 +47,7 @@ ROA > Inflación
 ROA = Utilidad Neta / Activos totales
 
 Si el ROA es menor a la inflación, la utilidad neta de la empresa no rinde 
+
+###### Respuestas
+![[Pasted image 20250109184656.png]]
+![[Pasted image 20250109185135.png]]
