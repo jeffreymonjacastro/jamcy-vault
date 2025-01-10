@@ -33,3 +33,63 @@
 2. I consider I'd be Terence Tao, Mathematic Peruvian
 3. I think I'd have accepted the job oportunity of audit and finance
 4. I consider it would have affected my relationship 
+![[Pasted image 20250110163141.png]]
+1. super
+2. pre
+3. mis
+4. hyper
+5. inter
+![[Pasted image 20250110163350.png]]
+- **Under-**: Indicates something is **insufficient**, **not enough**, or **below the expected level**.
+- **Over-**: Indicates something is **excessive**, **too much**, or **beyond the expected level**.
+
+#### 1. **Achieve**
+
+- **Underachieve**: Fail to reach your full potential.
+    - _I underachieved in my last project because I didn't manage my time well._
+- **Overachieve**: Perform better than expected.
+    - _I overachieved in my exams and scored higher than anyone in my class._
+
+#### 2. **Charge**
+
+- **Undercharge**: Ask for less money than appropriate.
+    - _I undercharged a client last week and had to correct the invoice later._
+- **Overcharge**: Ask for more money than appropriate.
+    - _I was overcharged at the store and had to request a refund._
+
+#### 3. **Cook**
+
+- **Undercook**: Cook something insufficiently.
+    - _I undercooked the chicken yesterday, and it wasn’t safe to eat._
+- **Overcook**: Cook something too much.
+    - _I overcooked the pasta, and it turned out very mushy._
+
+#### 4. **Do**
+
+- **Underdo**: Put in less effort or fail to meet expectations.
+    - _I underdid my workout this morning because I was too tired._
+- **Overdo**: Exaggerate or do too much.
+    - _I overdid my study session last night and ended up exhausted._
+
+#### 5. **Estimate**
+
+- **Underestimate**: Assess something to be less than it actually is.
+    - _I underestimated the time needed for the assignment, so I was late._
+- **Overestimate**: Assess something to be more than it actually is.
+    - _I overestimated how much food we would need for the party._
+
+#### 6. **Feed**
+
+- **Underfeed**: Provide too little food.
+    - _I underfed my plants last month, and now they’re not growing well._
+- **Overfeed**: Provide too much food.
+    - _I overfed my dog, and now I have to adjust his meals._
+
+#### 7. **Work**
+
+- **Underwork**: Put in less effort than required.
+    - _I underworked on my group project, and I feel guilty about it._
+- **Overwork**: Work excessively or beyond capacity.
+    - _I overworked last week, and now I’m feeling burnt out._
+
+![[Pasted image 20250110164512.png]]
