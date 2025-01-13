@@ -122,3 +122,6 @@ Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient,
 + **Terrifying:** Activity
 + **Worthwhile:** Activity
 
+![[Pasted image 20250113170416.png|700]]
+![[Pasted image 20250113170458.png|700]]
+![[Pasted image 20250113170511.png|700]]
