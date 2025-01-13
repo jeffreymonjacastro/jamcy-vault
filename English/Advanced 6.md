@@ -125,3 +125,16 @@ Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient,
 ![[Pasted image 20250113170416.png|700]]
 ![[Pasted image 20250113170458.png|700]]
 ![[Pasted image 20250113170511.png|700]]
+
+![[Pasted image 20250113171814.png|700]]
+1. involved (in)
+2. timid
+3. determined
+4. keen (on)
+
+![[Pasted image 20250113172319.png]]
+- **Involved**: _I’ve always been involved **in** helping my friends with their academic projects because I enjoy sharing ideas and collaborating._
+- **Timid**: _I used to feel timid **about** speaking in public, but I’ve been practicing and gaining confidence over time._
+- **Determined**: _I’m determined **to** improve my skills in programming because it’s a key part of my career goals._
+- **Keen**: _I’m very keen **on** learning new languages, and I’ve started practicing Spanish recently._
+
