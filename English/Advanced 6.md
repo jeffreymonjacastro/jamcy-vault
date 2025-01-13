@@ -109,4 +109,16 @@ Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient,
 
 ## Session 4 - 13/01
 ![[Pasted image 20250113161335.png|700]]
+![[Pasted image 20250113162640.png|700]]
++ **Adventurous:** Person
++ **Brave:** Person
++ **Breathtaking:** Activity (very exciting or impressive)
++ **Demanding:** Activity
++ **Determined:** Person
++ **Exciting:** Activity
++ **Exhausting:** Activity
++ **Irresponsible:** Person
++ **Skillful:** Person
++ **Terrifying:** Activity
++ **Worthwhile:** Activity
 
