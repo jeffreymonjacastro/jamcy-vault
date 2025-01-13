@@ -107,3 +107,6 @@ Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient,
 
 ![[Pasted image 20250110170433.png]]
 
+## Session 4 - 13/01
+![[Pasted image 20250113161335.png|700]]
+
