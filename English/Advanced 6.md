@@ -154,4 +154,7 @@ Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient,
 ### Questions during class
 1. What are you determined to archieve in the near future?
 2. What are you keen on doing at the weekends?
+3. When did you last give up doing something?
+
+![[Pasted image 20250114164510.png|700]]
 
