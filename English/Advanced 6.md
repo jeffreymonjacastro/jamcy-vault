@@ -138,3 +138,20 @@ Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient,
 - **Determined**: _I’m determined **to** improve my skills in programming because it’s a key part of my career goals._
 - **Keen**: _I’m very keen **on** learning new languages, and I’ve started practicing Spanish recently._
 
+## Session 5 - 14/01
+![[Pasted image 20250114161028.png|700]]
+1. complained about
+2. insists on
+3. addmitted to
+4. involved in
+5. prevented from
+6. deal with
+7. rely on
+8. determined to
+9. congratulated me on
+10. keen on
+
+### Questions during class
+1. What are you determined to archieve in the near future?
+2. What are you keen on doing at the weekends?
+
