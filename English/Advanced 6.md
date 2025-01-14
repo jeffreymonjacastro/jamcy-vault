@@ -157,4 +157,18 @@ Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient,
 3. When did you last give up doing something?
 
 ![[Pasted image 20250114164510.png|700]]
+![[Pasted image 20250114165207.png|700]]
+1. YES/NO
+2. YES/YES
+3. YES/NO
+4. YES/NO
+5. YES/YES
 
+![[Pasted image 20250114165545.png|700]]
+
+1. D
+2. C
+3. B
+4. A
+
+![[Pasted image 20250114170332.png|700]]
