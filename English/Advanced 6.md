@@ -172,3 +172,20 @@ Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient,
 4. A
 
 ![[Pasted image 20250114170332.png|700]]
+1. I wish I could speak japanese fluently
+2. I wish I didn't have alergic to cats
+3. I wish my parents would buy me clothes
+
+![[Pasted image 20250114171424.png|700]]
+1. are thinking about not going 
+2. had
+3. You're not allowed
+4. are considering telling him the truth
+
+![[Pasted image 20250114172130.png|700]]
+1. went (Suppose + past simple)
+2. had given (I felt + past perfect)
+3. didn't take (I'd rather + didn't + infinitive)
+4. stayed (What if + past simple)
+
+Suppose you had a million dollars what would you do?
