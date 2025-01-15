@@ -207,3 +207,11 @@ Student B: Which of these activities would you prefer to do? (25 sec)
 
 Student B: Similarities, differences, and answer the question (1 minute)
 Student A: Would you enjoy doing dangerous activities like these? (25 sec)
+
+![[Pasted image 20250115171353.png|700]]
+A - 2nd paragraph
+B - 1st paragraph
+C - 4th paragraph
+D - 3rd paragraph
+
+![[Pasted image 20250115171908.png|700]]
