@@ -189,3 +189,14 @@ Pregunta 2: Understimated, superhuman, overcome, irrational, retrain, impatient,
 4. stayed (What if + past simple)
 
 Suppose you had a million dollars what would you do?
+## Session 6 - 15/01
+![[Pasted image 20250115160931.png|700]]
+Look at the two photographs above. Which of the sports would you least like to do? 
+
+The photo with the sailing sport is the one that I don't like to do.
+
+![[Pasted image 20250115161947.png|700]]
+- 1C
+- 2D
+- 3A
+- 4B
