@@ -202,5 +202,8 @@ The photo with the sailing sport is the one that I don't like to do.
 - 4B
 ![[Pasted image 20250115162645.png]]
 
-A: Similarities, differences, and answer the question (1 minute)
-B: Which of these activities would you prefer to do? (25 sec)
+Student A: Similarities, differences, and answer the question (1 minute)
+Student B: Which of these activities would you prefer to do? (25 sec)
+
+Student B: Similarities, differences, and answer the question (1 minute)
+Student A: Would you enjoy doing dangerous activities like these? (25 sec)
