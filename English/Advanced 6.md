@@ -215,3 +215,10 @@ C - 4th paragraph
 D - 3rd paragraph
 
 ![[Pasted image 20250115171908.png|700]]
+![[Pasted image 20250115172716.png]]
+### Writting Task
+![[Pasted image 20250115172943.png|700]]
+Send to: carnaiz@britanico.edu.pe
+Subject: FULL NAME/AD6/WRlTlNGI/REVIEW
+Body: The review
+Deadline: Jan 16th at 11:59 pm
