@@ -200,3 +200,7 @@ The photo with the sailing sport is the one that I don't like to do.
 - 2D
 - 3A
 - 4B
+![[Pasted image 20250115162645.png]]
+
+A: Similarities, differences, and answer the question (1 minute)
+B: Which of these activities would you prefer to do? (25 sec)
