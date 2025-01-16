@@ -235,3 +235,17 @@ If only I hadn't refused a job opportunety
 6. would not have been
 
 When did you last put something off? Why?What was it?
+
+### Past exercise
+![[Pasted image 20250116163814.png|700]]
+1. Delayed
+2. get rid of 
+3. Cancelled
+4. shouted at us 
+5. say goodbye
+6. exploded
+7. went away
+8. separated
+
+![[Pasted image 20250116164514.png]]
+1. 
