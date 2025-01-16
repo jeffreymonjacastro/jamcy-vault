@@ -249,3 +249,9 @@ When did you last put something off? Why?What was it?
 
 ![[Pasted image 20250116164514.png]]
 1. 
+
+![[Pasted image 20250116171240.png|900]]
+1. broadened
+2. dramatic
+3. inspiring
+4. critical 
