@@ -222,3 +222,13 @@ Send to: carnaiz@britanico.edu.pe
 Subject: FULL NAME/AD6/WRlTlNGI/REVIEW
 Body: The review
 Deadline: Jan 16th at 11:59 pm
+
+## Session 7 - 16/01
+Someting that you regret:
+If only I hadn't refused a job opportunety
+
+![[Pasted image 20250116160952.png|700]]
+2. would rather you wear
+3. it is time to go
+4. g
+5. train have not been 
