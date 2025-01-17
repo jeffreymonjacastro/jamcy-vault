@@ -272,4 +272,10 @@ When did you last put something off? Why?What was it?
 
 ![[Pasted image 20250117163313.png|700]]
 ![[Pasted image 20250117163535.png]]
-![[Pasted image 20250117165625.png]]
+![[Pasted image 20250117170406.png]]
+![[Pasted image 20250117170512.png]]
+![[Pasted image 20250117171712.png]]
+1. on 
+2. in
+3. on for
+4. 
