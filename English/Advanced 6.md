@@ -275,7 +275,15 @@ When did you last put something off? Why?What was it?
 ![[Pasted image 20250117170406.png]]
 ![[Pasted image 20250117170512.png]]
 ![[Pasted image 20250117171712.png]]
-1. on 
+1. from
 2. in
-3. on for
-4. 
+3. in
+4. on
+5. on
+6. off
+7. for
+8. of
+9. on
+10. to
+11. with
+12. from
