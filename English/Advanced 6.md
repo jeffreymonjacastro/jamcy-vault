@@ -261,3 +261,14 @@ When did you last put something off? Why?What was it?
 8. underestimated
 9. rebuild
 10. irresponsible
+## Session 8
+
+![[Pasted image 20250117161839.png|900]]
+1. Held my breath
+2. It made my blood run cold
+3. Afraid of their own shadow 
+4. Feel as if I have butterflies in my stomach
+5. I had my heart in my mount
+
+![[Pasted image 20250117163313.png|700]]
+![[Pasted image 20250117163535.png]]
