@@ -261,7 +261,7 @@ When did you last put something off? Why?What was it?
 8. underestimated
 9. rebuild
 10. irresponsible
-## Session 8
+## Session 8 - 17/01
 
 ![[Pasted image 20250117161839.png|900]]
 1. Held my breath
