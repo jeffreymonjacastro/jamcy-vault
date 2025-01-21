@@ -3,3 +3,13 @@
 ![[Pasted image 20250121134021.png]]![[Pasted image 20250121134349.png]]![[Pasted image 20250121134511.png]]
 ## Solución
 ![[Pasted image 20250121134502.png]]
+![[Pasted image 20250121143338.png]] 
+## Solución
+![[Pasted image 20250121143324.png]]
+![[Pasted image 20250121144442.png]]
+## Solución
+![[Pasted image 20250121144459.png]]
+# Regresión lineal
+Mediante la regresión lineal podrás analizar la relación entre la variable dependiente (en este caso la demanda) y las variables independientes (como lo serían el precio o la publicidad). En este caso, asumimos una relación lineal entre la demanda y las variables independientes.
+Por otro lado, al aplicar el método de mínimos cuadrados, podrás encontrar la mejor línea recta que se ajuste a los puntos de datos históricos y dicha línea te permitirá identificar cómo la demanda cambia en función de las variables independientes.
+Por ejemplo, si sabes que el precio de un producto aumentará el próximo mes, puedes utilizar la regresión lineal para predecir cómo este cambio de precio afectará la demanda.
