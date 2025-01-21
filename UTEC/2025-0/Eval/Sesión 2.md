@@ -27,8 +27,9 @@
 
 ![[Pasted image 20250121124931.png]]
 
+![[Pasted image 20250121131043.png]]
 
-
+## Otras cosas
 [PMI](pmi.org): Project Management Institute
 Página para la gestión de proyectos
 PMP -> PMBook

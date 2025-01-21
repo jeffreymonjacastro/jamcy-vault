@@ -37,7 +37,13 @@ En la EC: Todo lo que tenga que ver con participar y hablar suma
 
 # Fundamentos de Evaluación Financiera de Proyectos
 ![[Pasted image 20250107195348.png]]
-
+# Riesgos 
+## Riesgos financieros
+![[Pasted image 20250121131909.png]]
+![[Pasted image 20250121131918.png]]
+## Riesgo operativo
+![[Pasted image 20250121131935.png]]
+![[Pasted image 20250121131946.png]]
 # Actividad
 ![[Pasted image 20250107204922.png]]
 ![[Pasted image 20250107204934.png]]
