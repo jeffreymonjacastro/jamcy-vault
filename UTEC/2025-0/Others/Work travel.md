@@ -32,6 +32,7 @@
 | React Developer                              | EX Squared LATAM            |      |
 | IT Software Engineering Intern               | Pinterest                   |      |
 | IT System Engineering Intern                 | Pinterest                   |      |
+| Practicante de TI                            | QROMA                       |      |
 
 
 # Full Stack roles
