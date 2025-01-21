@@ -287,3 +287,5 @@ When did you last put something off? Why?What was it?
 10. to
 11. with
 12. from
+## Session 10 - 21/01
+![[Pasted image 20250121164811.png]]
