@@ -18,3 +18,22 @@ La regresión lineal simple es un método estadístico que tiene como objetivo i
 ![[Pasted image 20250121150952.png]]
 ## Solución
 ![[Pasted image 20250121150938.png]]
+# Regresiones
+![[Pasted image 20250121152226.png]]
+# Series de tiempo
+![[Pasted image 20250121152238.png]]
+- Estado de situación financiera
+	- Activos corrientes y no corrientes 
+	- Pasivos corrientes y no corrientes
+	- Patrimonio
+- Estado de resultados
+	- La capacidad de la empresa para generar ingresos y obtener una utilidad
+![[Pasted image 20250121152608.png]]
+# Estado de flujo de efectivo
+- Permite entender cómo se comporta el efectivo/caja de la empresa
+- Un estado financiero que nos permite entender el comportamiento de una cuenta en particual del estado de situación financiera que es la caja y efectivo
+- El efectivo principal es por las ventas, inversión y financiamiento
+
+![[Pasted image 20250121152816.png]]
+![[Pasted image 20250121152942.png]]
+![[Pasted image 20250121152950.png]]
