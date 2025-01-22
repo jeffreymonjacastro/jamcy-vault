@@ -140,3 +140,16 @@ The copy key is `y` which stands for yank. `Ctrl + C` memories.
 `yy` = Copy the hole line
 
 `x` = Delete the character under the cursor
+`o` = Enters to insert mode creating a new line down
+`O` = Enters to insert mode creating a new line up
+
+# Change text
+`cw` = Deletes from the cursor to the end of the word and switch to insert mode
+`c)` = Deletes from the cursor to the end of the sentence and switch to insert mode
+`c}` = Deletes from the cursor to the end of the paragraph and switch to insert mode
+`c/<RegEx>` = Deletes from the cursor to the first occurence and switch to insert mode
+
+# Visual mode
+`v` = Normal visual mode
+`Shift + v` = Line visual mode
+`Ctrl + v` = Block visual mode
