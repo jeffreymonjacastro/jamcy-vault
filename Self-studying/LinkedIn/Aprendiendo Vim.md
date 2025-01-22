@@ -70,3 +70,6 @@ U can move using curly braces.
 > `2{` = 2 paragraphs previous
 
 # Regular Expressions
+RegEx is a way to match text using more than words.
+
+For searching a specific kind of words that match the RegEx, you can use slash `/`
