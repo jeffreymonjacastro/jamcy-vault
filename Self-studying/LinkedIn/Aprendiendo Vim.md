@@ -39,7 +39,7 @@ Vim provides two main modes:
 > It can be combined with a numer before the key, which indicates how many positions you want to move
 > 
 > For example:
-> `5l` = 5 letters to the right 
+> `5l` = 5 characters to the right 
 
 # Words, Sentences, Paragraphs
 #normal_mode
@@ -69,7 +69,23 @@ U can move using curly braces.
 > `3)` = 3 sentences next
 > `2{` = 2 paragraphs previous
 
-# Regular Expressions
+# Search with Regular Expressions
 RegEx is a way to match text using more than words.
 
-For searching a specific kind of words that match the RegEx, you can use slash `/`
+## Searching forward
+`/<RegEx>` = For searching forward a specific kind of words that match the RegEx beginning on the position of the cursor
+
+>**Examples:**
+`/tra` = Search forward words that has "tra" in them (atTRActed)
+`/ch.mb` = Search forward words that has "ch" + any character + "mb" (chamber) 
+
+Press `enter` to search for first occurence
+ `n` = Move to the next occurence
+ `N` = Move to the previous occurence
+
+## Searching backwards
+`?<RegEx>` = For searching backwards a specific kind of words that match the RegEx beginning on the position of the cursor
+
+Press `enter` to search for first occurence
+ `n` = Move to the previous occurence
+ `N` = Move to the next occurence
