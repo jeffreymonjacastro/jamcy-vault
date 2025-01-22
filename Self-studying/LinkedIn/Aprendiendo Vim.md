@@ -89,3 +89,23 @@ Press `enter` to search for first occurence
 Press `enter` to search for first occurence
  `n` = Move to the previous occurence
  `N` = Move to the next occurence
+
+# Move around screen
+`G` = Go to the end of the file
+`gg` = Go to the beginning of the file
+`Ctrl + F` = Move a page forward and mantain the cursor position
+`Ctrl + B` = Move a page backward and mantain the cursor position
+
+> You can also add numbers to move a specific amount of positions
+> 
+> For example:
+> `2 Ctrl + F` = Move 2 pages forward
+
+# Lines
+`:<number_of_line> + Enter` = Move to a specific line mantaining cursor position
+`<number_of_line>G` = Move to a specific line mantaining cursor position
+`$` = Move to the end of the line
+`0` = Move to the beginning of the line
+`vim <filename> +<number_of_line>` = Open a file in a specific line
+
+

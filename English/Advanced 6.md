@@ -289,3 +289,17 @@ When did you last put something off? Why?What was it?
 12. from
 ## Session 10 - 21/01
 ![[Pasted image 20250121164811.png]]
+
+## Session 11 - 22/01
+![[Pasted image 20250122171236.png|800]]
+1 - 9
+2 - 3
+3 - 4
+4 - 6
+5 - 2
+6 - 5
+7- 7
+8 - 8
+9 - 1
+10 - 10
+
