@@ -44,9 +44,9 @@ Vim provides two main modes:
 # Words, Sentences, Paragraphs
 #normal_mode
 ## Words
-`w` = Move to the beginning of the next word (w for word)
-`e` = Move to the end of the next word (e for end)
-`b` = Move to the beguinning of the previous word (b for back)
+`w` (Word) = Move to the beginning of the next word 
+`e` (End) = Move to the end of the next word 
+`b` (Back) = Move to the beguinning of the previous word (b for back)
 `ge` = Move to the end of the previous word
 ## Sentences
 A sentence is a sequence of words that end with a dot, exclamation or question mark followed by either the end of a line or a space or a tab. 
@@ -70,6 +70,7 @@ U can move using curly braces.
 > `2{` = 2 paragraphs previous
 
 # Search with Regular Expressions
+#normal_mode 
 RegEx is a way to match text using more than words.
 
 ## Searching forward
@@ -91,6 +92,7 @@ Press `enter` to search for first occurence
  `N` = Move to the next occurence
 
 # Move around screen
+#normal_mode 
 `G` = Go to the end of the file
 `gg` = Go to the beginning of the file
 `Ctrl + F` = Move a page forward and mantain the cursor position
@@ -102,10 +104,39 @@ Press `enter` to search for first occurence
 > `2 Ctrl + F` = Move 2 pages forward
 
 # Lines
+#normal_mode 
 `:<number_of_line> + Enter` = Move to a specific line mantaining cursor position
 `<number_of_line>G` = Move to a specific line mantaining cursor position
 `$` = Move to the end of the line
 `0` = Move to the beginning of the line
 `vim <filename> +<number_of_line>` = Open a file in a specific line
 
+# Search actual word
+#normal_mode 
+`*` = Search for the next actual word
+`#` = Search for the previous actual word
 
+> You can still using this motions:
+`n` = Move to the next occurence
+`N` = Move to the previous occurence
+
+# Deleting
+#normal_mode 
+The key `d` is used to delete, but it functions with a combination of keys.
+
+`dw` (Delete Word) = Deletes the characters from the cursor to the end of the actual word
+`d)` = Deletes the words from the cursor to the end of the actual sentence.
+`dd` = Deletes the hole line 
+`d/<RegEx> + Enter` = Deletes from the cursor to the first occurence of the RegEx
+
+> `u` (Undo) = Undo as `Ctrl + Z`
+# Copy & Paste
+#normal_mode 
+The copy key is `y` which stands for yank. `Ctrl + C` memories.
+
+`yw` (Yank Word) = Copy from the cursor to the end of the actual word
+`p` (Paste) = Paste as `Ctrl + V` right after the cursor is.
+`P` = Paste right before the cursor is
+`yy` = Copy the hole line
+
+`x` = Delete the character under the cursor
