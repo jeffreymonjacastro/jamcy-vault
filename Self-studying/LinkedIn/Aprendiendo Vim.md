@@ -46,22 +46,27 @@ Vim provides two main modes:
 ## Words
 `w` = Move to the beginning of the next word (w for word)
 `e` = Move to the end of the next word (e for end)
-
->  It can also be combined with a numer before the key, which indicates how many positions you want to move
-> 
-> For example:
-> `5w` = 5 next words 
-
+`b` = Move to the beguinning of the previous word (b for back)
+`ge` = Move to the end of the previous word
 ## Sentences
 A sentence is a sequence of words that end with a dot, exclamation or question mark followed by either the end of a line or a space or a tab. 
 U can move using braces.
 
 `)` = Move to the beginning of the next sentence
 `(` = Move to the beginning of the previous sentence
-
 ## Paragraphs
 A paragraph begins after an empty line and ends with an empty line
 U can move using curly braces.
 
-`)` = Move to the top empty line of the next paragraph 
-`(` = Move to the top empty line of the previous paragrah 
+`}` = Move to the top empty line of the next paragraph 
+`{` = Move to the top empty line of the previous paragrah 
+
+
+>  It can also be combined with a numer before the key, which indicates how many positions you want to move
+> 
+> For example:
+> `5w` = 5 words next 
+> `3)` = 3 sentences next
+> `2{` = 2 paragraphs previous
+
+# Regular Expressions
