@@ -323,4 +323,9 @@ Used to compare changes between different versions of the files
 
 # Help system
 `:help user`
-`$ vimtutor`
+`:Tutor`
+[Vim adventures](https://vim-adventures.com)
+[A Byte of Vim](https:((vim.swaroopch.com)
+[VimGolf](http://www.vimgolf.com)
+
+
