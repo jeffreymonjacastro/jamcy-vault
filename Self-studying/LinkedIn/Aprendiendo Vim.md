@@ -302,4 +302,10 @@ Used to compare changes between different versions of the files
 
 `$ nvim -d <filename1> <filename2>` = Opens the build-in-diff mode
 `do` (Diff Obtain) = Select the change of the other file
-`dp` (Diff Obtain) = Select the change of the other file
+`dp` (Diff Put) = Select the change of the current file
+
+`:vert diffsplit <filename>` = Other way to enter to diff mode vertically in a current file with the filename 
+`:se dip+=vertical` = Open vertical split automatically
+
+# Zip files
+Instead of unzip you can edit the files directly on vim
