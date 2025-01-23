@@ -155,5 +155,23 @@ The copy key is `y` which stands for yank. `Ctrl + C` memories.
 `Ctrl + v` = Block visual mode
 
 # Registers
-We can save specific text into vim registers. Vim has 52 registers in total (lower and upper case alphabet)
+- We can save specific text into vim registers.
+- Registers are named storage areas in Vim. Some common types include:
 
+| Register | Usage                                                                                         |
+| -------- | --------------------------------------------------------------------------------------------- |
+| `"`      | The unnamed register (default for most operations).                                           |
+| `0`      | Stores the last text yanked (copied).                                                         |
+| `1`-`9`  | Numbered registers: store deleted or changed text in a stack-like manner (`1` is the latest). |
+| `a-z`    | Named registers: manually store and retrieve text.                                            |
+| `+`      | System clipboard: for interaction with the OS clipboard.                                      |
+| `%`      | Current file name.                                                                            |
+| `/`      | Last search pattern.                                                                          |
+
+`"ayy` = Copy whole line to register a
+`"ap` = Paste the content in register a
+
+# Replace text
+`:s/you/they` = Replaces the first occurence of "you" with "they"
+`:s/you/they/g` = Replaces all the occurences of "you" with "they"
+`:s/you/they/gc` = Replaces all the occurences of "you" with "they" only if you confirm the change of each occurence
