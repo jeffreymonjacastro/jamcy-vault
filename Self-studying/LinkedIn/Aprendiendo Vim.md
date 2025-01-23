@@ -240,3 +240,16 @@ All the vim motions are storage in a jump history
 + You can search for filenames with `/`
 + Click `Enter` to start editing the file
 `:ls` = View the list of buffers
+`:bn` = Move to the next buffer
+`:bp` = Move to the previous buffer
+`:b <filename>|<number>`  = Move to specific buffer
+
+# Read command
+`:r <filename>` = Paste all the content of a file in the position of the cursor
+
+# Configuration
+My config file of nvim is in `C:\Users\jeffr\AppData\Local\nvim\init.lua`
+
+`:set number` = Show numbers to the left
+`:set nonu` = Hide numbers to the left
+`:noremap <new_key> <previous_key>` = Add a key to behave as the previous key
