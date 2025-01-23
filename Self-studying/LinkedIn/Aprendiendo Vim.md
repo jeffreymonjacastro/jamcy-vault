@@ -253,3 +253,29 @@ My config file of nvim is in `C:\Users\jeffr\AppData\Local\nvim\init.lua`
 `:set number` = Show numbers to the left
 `:set nonu` = Hide numbers to the left
 `:noremap <new_key> <previous_key>` = Add a key to behave as the previous key
+
+# Abbreviations
+`:abb <Abbreviation> <text>` = Will create an abbreviation instead of writing the text
+
+> Example
+> `:abb _j Jeffrey :D` = When writing \_j and space, it will appear the text
+
++ Use `Ctrl + v` to don't expand  the abbreviation
++ Better to use words that doesn't exist for abbreviations, as underscores at the beginning
+
+# Add commands
+`:! <command>` = To execute an external command 
++ Press `Enter` to go back to vim
+
+`:com! <command_name> ! <command>` = Creates a new vim command that executes something
+> Example
+> `:com! Py ! python %` = Executes the current python file
+
++ The commands can be added to .vimrc config file.
++ You can do much more with commands. Write functions, accept arguments and more. With accommodation it is excellent.
+
+# Various settings
+`:help option-summary` = Summary of options that are available
+`:close` = Close the window without exit vim
+`:set` = View the current set option
+`:set ignorecase` = 
