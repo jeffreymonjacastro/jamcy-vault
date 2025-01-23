@@ -320,3 +320,7 @@ Used to compare changes between different versions of the files
 `:!date` = Shows current date
 `:r !dir` = Paste all files in directory
 `:%! jq .` = Runs jq to a json file to pretty view 
+
+# Help system
+`:help user`
+`$ vimtutor`
