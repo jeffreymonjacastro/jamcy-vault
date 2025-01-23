@@ -222,3 +222,21 @@ All the vim motions are storage in a jump history
 `:jumps` = View jumps historial
 
 # Windows and buffers
++ A buffer is the content of the file being edited
++ It can be a new file, or a file that's already exists on a disk
++ All changes you do to buffer will only be written to disk if you save the buffer
++ A window is a view to a buffer
++ You can have several windows pointing to the same buffer in different places
+
+`:split` = Opens a new window to the same buffer
+`Ctrl + w + w` = Go to the next window
+`Ctrl + w + c` = Close the current window
+`:new <filename>` = Open a new file into a split window
+
+- When you start vim with no filename it will open a window into a empty buffer
+
+`:bd` (Buffer Delete) = Removes the current buffer  
+`:e .` = Show a list of files from the current directory
++ You can search for filenames with `/`
++ Click `Enter` to start editing the file
+`:ls` = View the list of buffers
