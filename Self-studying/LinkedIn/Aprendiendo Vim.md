@@ -175,3 +175,21 @@ The copy key is `y` which stands for yank. `Ctrl + C` memories.
 `:s/you/they` = Replaces the first occurence of "you" with "they"
 `:s/you/they/g` = Replaces all the occurences of "you" with "they"
 `:s/you/they/gc` = Replaces all the occurences of "you" with "they" only if you confirm the change of each occurence
+
+# Marks
+- The key for creating marks is m (mark)
+- You can create marks with all lower and upper case letters
+	- Lowercase marks are stored in buffer
+	- Uppercase marks are across (inaudible)
+
+`ma` = Creates a mark in variable "a"
+`'a` = Go to the mark "a"
+
+# Jump through history
+All the vim motions are storage in a jump history
+
+`Ctrl + o` = Go to the previous jump
+`Ctrl + i` = Go to the next jump
+`:jumps` = View jumps historial
+
+# Special marks
