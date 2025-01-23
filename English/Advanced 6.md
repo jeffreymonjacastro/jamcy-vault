@@ -4,7 +4,7 @@
 + Listening and Writing Test: Tuesday 28th
 + Final Test: Thursday 30th
 + Homework Writting (CB page 120 ex 6): Wednesday 15th - Deadline: 16th
-+ Writing in class (CB page 130 ex 4): Thursday 23rd
++ Writing in class (CB page 130 ex 4): Monday 27th
 + Quizzes - Deadline: Wednesday 22nd
 	+ Quiz 1: MEL>TEST>MOCK TEST>Listening Part 3 
 	+ Quiz 2: MEL>TEST>MOCK TEST>Listening Part 4 
