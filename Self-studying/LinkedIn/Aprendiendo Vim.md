@@ -16,21 +16,17 @@ Vim provides two main modes:
 - Exit insert mode: `Esc` or `Ctrl + C`
 
 # Save files
-#normal_mode
 `:w` =  if the file doesn't exist, vim will create it
 `:w <file_name.txt>` = will create a file with that name
 
 # Edit a new file
-#normal_mode
 `:e <file_name>` = will open the file
 + Use tab to navigate between all the files
 
 # What file do I am editing?
-#normal_mode
 `Ctrl + g` = Will indicate the name of the file you are editing 
 
 # Motion Keys
-#normal_mode
 `h` = Left
 `j` = Dow 
 `k` = Up 
@@ -42,7 +38,6 @@ Vim provides two main modes:
 > `5l` = 5 characters to the right 
 
 # Words, Sentences, Paragraphs
-#normal_mode
 ## Words
 `w` (Word) = Move to the beginning of the next word 
 `e` (End) = Move to the end of the next word 
@@ -70,7 +65,6 @@ U can move using curly braces.
 > `2{` = 2 paragraphs previous
 
 # Search with Regular Expressions
-#normal_mode 
 RegEx is a way to match text using more than words.
 
 ## Searching forward
@@ -92,7 +86,6 @@ Press `enter` to search for first occurence
  `N` = Move to the next occurence
 
 # Move around screen
-#normal_mode 
 `G` = Go to the end of the file
 `gg` = Go to the beginning of the file
 `Ctrl + F` = Move a page forward and mantain the cursor position
@@ -104,7 +97,6 @@ Press `enter` to search for first occurence
 > `2 Ctrl + F` = Move 2 pages forward
 
 # Lines
-#normal_mode 
 `:<number_of_line> + Enter` = Move to a specific line mantaining cursor position
 `<number_of_line>G` = Move to a specific line mantaining cursor position
 `$` = Move to the end of the line
@@ -112,7 +104,6 @@ Press `enter` to search for first occurence
 `vim <filename> +<number_of_line>` = Open a file in a specific line
 
 # Search actual word
-#normal_mode 
 `*` = Search for the next actual word
 `#` = Search for the previous actual word
 
@@ -121,7 +112,6 @@ Press `enter` to search for first occurence
 `N` = Move to the previous occurence
 
 # Deleting
-#normal_mode 
 The key `d` is used to delete, but it functions with a combination of keys.
 
 `dw` (Delete Word) = Deletes the characters from the cursor to the end of the actual word
@@ -131,7 +121,6 @@ The key `d` is used to delete, but it functions with a combination of keys.
 
 > `u` (Undo) = Undo as `Ctrl + Z`
 # Copy & Paste
-#normal_mode 
 The copy key is `y` which stands for yank. `Ctrl + C` memories.
 
 `yw` (Yank Word) = Copy from the cursor to the end of the actual word
@@ -184,6 +173,46 @@ The copy key is `y` which stands for yank. `Ctrl + C` memories.
 
 `ma` = Creates a mark in variable "a"
 `'a` = Go to the mark "a"
+`:marks` = View all marks
+
+## Special Mark
+`'.` = Go to the previous line modified
+
+### **1. Marks Locales (Alcance dentro del archivo actual)**
+
+| **Mark** | **Descripción**                                                                                                   |
+| -------- | ----------------------------------------------------------------------------------------------------------------- |
+| `a-z`    | Marks locales definidos por el usuario. Puedes establecerlos con `m<mark>` y saltar con `' <mark>` o `` `<mark>`. |
+| `'`      | Última posición antes de un salto en el archivo. (`''` salta a esa posición).                                     |
+| `.`      | Última posición donde se realizó un cambio.                                                                       |
+| `^`      | Posición del cursor antes de entrar al modo de inserción.                                                         |
+| `"`      | Última posición donde se dejó el cursor al salir de Vim.                                                          |
+### **2. Marks Globales (Alcance entre archivos)**
+
+| **Mark** | **Descripción**                                                                    |
+| -------- | ---------------------------------------------------------------------------------- |
+| `A-Z`    | Marks globales definidos por el usuario. Funcionan entre archivos abiertos en Vim. |
+| `0-9`    | Posiciones en los archivos editados recientemente.                                 |
+### **3. Marks Especiales**
+
+| **Mark** | **Descripción**                                         |
+| -------- | ------------------------------------------------------- |
+| `[`      | Inicio del área más reciente seleccionada o modificada. |
+| `]`      | Final del área más reciente seleccionada o modificada.  |
+| `<`      | Inicio de la última selección visual.                   |
+| `>`      | Final de la última selección visual.                    |
+| `{`      | Inicio del bloque más reciente modificado.              |
+| `}`      | Final del bloque más reciente modificado.               |
+### **4. Uso de los Marks**
+
+| **Comando**       | **Descripción**                                                             |
+| ----------------- | --------------------------------------------------------------------------- |
+| `m<mark>`         | Establece un mark en la posición actual del cursor.                         |
+| `' <mark>`        | Salta a la línea del mark.                                                  |
+| `` `<mark>`       | Salta a la posición exacta del mark (línea y columna).                      |
+| `:marks`          | Lista todos los marks y sus posiciones.                                     |
+| `delmarks <mark>` | Elimina un mark específico (por ejemplo, `delmarks a` elimina el mark `a`). |
+| `delmarks!`       | Elimina todos los marks definidos por el usuario.                           |
 
 # Jump through history
 All the vim motions are storage in a jump history
@@ -192,4 +221,4 @@ All the vim motions are storage in a jump history
 `Ctrl + i` = Go to the next jump
 `:jumps` = View jumps historial
 
-# Special marks
+# Windows and buffers
