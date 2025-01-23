@@ -278,4 +278,28 @@ My config file of nvim is in `C:\Users\jeffr\AppData\Local\nvim\init.lua`
 `:help option-summary` = Summary of options that are available
 `:close` = Close the window without exit vim
 `:set` = View the current set option
-`:set ignorecase` = 
+`:set ignorecase` = Avoid case sensitive while searching
+`:set hls` = Highligh occurences while searching
+`:noh` = TUrn highlighting off
+`:set incsearch` = Incremental search
+`:set clopboard=unnamedplus` = Syncronize system clipboard
+`:syntax on` = Syntax colors for programming languages
+`:colorscheme delek` = Change syntax color to delek
+
++ You can save all this settings in vim config file
+
+# Start vim with a command
+To add commands when starting vim, is used `+`
+
+`$ nvim <filename> +<number>` = Open the file in specific line
+`$ nvim <filename> +/<RegEx>` = Open the file in the first occurence to RegEx pattern
+
+>Example
+>`$ nvim > +1d +wq ./conway.txt` = Deletes first line and saves the file
+
+# Diff mode
+Used to compare changes between different versions of the files
+
+`$ nvim -d <filename1> <filename2>` = Opens the build-in-diff mode
+`do` (Diff Obtain) = Select the change of the other file
+`dp` (Diff Obtain) = Select the change of the other file
