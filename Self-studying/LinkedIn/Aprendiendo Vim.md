@@ -308,4 +308,15 @@ Used to compare changes between different versions of the files
 `:se dip+=vertical` = Open vertical split automatically
 
 # Zip files
-Instead of unzip you can edit the files directly on vim
+`$ nvim <zip_file>` = Instead of unzip you can edit the files directly on vim
+
+# Open files from name
+`gf` (go to file) = Open the file with the name the cursor is in
+`gF` = Open the file in the exact line number
+
++ Pressing `gf` into a url will fetch the content and show the html
+
+# External commands
+`:!date` = Shows current date
+`:r !dir` = Paste all files in directory
+`:%! jq .` = Runs jq to a json file to pretty view 
