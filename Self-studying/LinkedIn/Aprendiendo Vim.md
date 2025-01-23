@@ -153,3 +153,7 @@ The copy key is `y` which stands for yank. `Ctrl + C` memories.
 `v` = Normal visual mode
 `Shift + v` = Line visual mode
 `Ctrl + v` = Block visual mode
+
+# Registers
+We can save specific text into vim registers. Vim has 52 registers in total (lower and upper case alphabet)
+
