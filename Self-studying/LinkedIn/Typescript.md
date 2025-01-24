@@ -113,11 +113,31 @@ type ContactName = string
 interface Contact { 
 	id: number;
 	name: string;
-	clone(name: string): Contact;
+	clone(name: string): Contact; // function as attribute
 }
 
-// parameters and functions can have their own type
-function clone(source: Contact, fun: ): Contact {
+// parameters and return values can have their own type
+function clone(source: Contact): Contact {
+	return Object.apply({}, source)
+}
+
+const a: Contact = { id: 123, name: "Jeff"};
+const b = clone(a)
+```
+
+# Metatype using Generics
++ Generic type = Meta type
++ A type that represents any other type you might sustitute in
++ A placeholder type
+
+```typescript
+interface Contact { 
+	id: number;
+	name: string;
+}
+
+// The variable T will be replaced by any other type
+function clone<T>(source: T): T {
 	return Object.apply({}, source)
 }
 
