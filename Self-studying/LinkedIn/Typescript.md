@@ -1034,15 +1034,3 @@ app.ts
 ```typescript
 const formattedDate = formatDate(new Date())
 console.log(formattedDate)
-```
-
-
-
-```typescript
-```
-
-```typescript
-```
-
-```typescript
-```
