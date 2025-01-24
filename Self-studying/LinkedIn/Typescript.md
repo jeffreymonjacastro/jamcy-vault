@@ -209,3 +209,4 @@ interface UserContact<TExternalId> {
 }
 ```
 
+# Union types
