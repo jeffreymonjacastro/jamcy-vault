@@ -62,7 +62,8 @@ let primaryContact: Contact = {
 ```
 
 # Type aliases
-Other way to defining custom types. It's just an alias to another type
++ Other way to defining custom types. It's just an alias to another type
++ They provide an alternative name for an existing type
 
 ```typescript
 interface Contact { 
@@ -81,6 +82,7 @@ type ContactName = string // Type aliases
 ```
 
 # Enumerable types
++ They are compiled and available at runtime
 
 ```typescript
 interface Contact { 
