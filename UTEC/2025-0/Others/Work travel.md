@@ -33,6 +33,8 @@
 | IT Software Engineering Intern               | Pinterest                   |      |
 | IT System Engineering Intern                 | Pinterest                   |      |
 | Practicante de TI                            | QROMA                       |      |
+| Practicante de Analytics                     | Interbank                   |      |
+|                                              |                             |      |
 
 
 # Full Stack roles
