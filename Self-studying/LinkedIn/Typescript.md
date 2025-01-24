@@ -262,6 +262,9 @@ let primaryContact: Contact = {
 ```
 
 # Keyof operator
++ Looks like using the native instanceof operator
++ Only available in compile time
++  Defines a type alias consisting of all of the properties on the contact type
 
 ```typescript
 type ContactName = string;
@@ -273,6 +276,7 @@ interface Contact  {
     name: ContactName;
     birthDate?: ContactBirthDate;
     status?: ContactStatus;
+    email: string;
 }
 
 let primaryContact: Contact = {
@@ -280,4 +284,63 @@ let primaryContact: Contact = {
     name: "Jamie Johnson",
     status: "active"
 }
+
+// Defines a type alias consisting of all of the properties on the contact type
+type ContactFields = keyof Contact;
+
+// The propertyName can just have an existing property of T
+function getValue<T>(source: T, propertyName: keyof T) {
+	return source[propertyName]
+
+const value = getValue({min: 1, max: 200}, "min") // only min | max
+```
+
+## Generic constraints with keyof
+```typescript
+// The second parameter is limited by the properties on the generic T type
+function getValue<T, U extends keyof T>(source: T, propertyName: U) {
+	return source[propertyName] 
+}
+
+const value = getValue({min: 1, max: 200}, "min")
+```
+
+# Typeof operator
+
+```typescript
+const x = "string"
+const y = true
+console.log(typeof x) // --> "string"
+console.log(typeof y) // --> "boolean"
+ 
+
+type ContactName = string;
+type ContactStatus = "active" | "inactive" | "new"
+type ContactBirthDate = Date | number | string
+
+interface Contact {
+    id: number;
+    name: ContactName;
+    birthDate?: ContactBirthDate;
+    status?: ContactStatus;
+}
+
+function toContact(nameOrContact: string | Contact): Contact {
+    if (typeof nameOrContact === "object") {
+        return {
+            id: nameOrContact.id,
+            name: nameOrContact.name,
+            status: nameOrContact.status
+        }
+    }
+    else {
+        return {
+            id: 0,
+            name: nameOrContact,
+            status: "active"
+        }
+    }
+}
+
+const myType = {min: 1, max: 200}
 ```
