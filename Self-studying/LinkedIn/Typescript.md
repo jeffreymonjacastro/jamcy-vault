@@ -604,20 +604,27 @@ interface Contact {
     address: Address;
 }
 
-interface Query {
-    sort?: 'asc' | 'desc';
-    matches(val): boolean;
+// Enumerates all of  the keys of the contact type and make it optional
+type ContactQuery = {
+	[TProp in keyof Contact]? Query;
 }
 
-type ContactQuery = {
-	[TProp in ]
+interface Query<TProp> {
+    sort?: 'asc' | 'desc';
+    matches(val: TProp): boolean;
 }
+
+// Mapped Object indexed
+type ContactQuery = {
+	[TProp in keyof Contact]? Query<Contact[TProp]>;
+}
+
 
 function searchContacts(contacts: Contact[], query: ContactQuery) {
     return contacts.filter(contact => {
         for (const property of Object.keys(contact) as (keyof Contact)[]) {
             // get the query object for this property
-            const propertyQuery = query[property];
+            const propertyQuery = query[property] as Query<Contact[keyof Contact]>;
             // check to see if it matches
             if (propertyQuery && propertyQuery.matches(contact[property])) {
                 return true;
@@ -636,4 +643,56 @@ const filteredContacts = searchContacts(
     }
 );
 
+```
+
+# Decorators
+
+```typescript
+interface Contact {
+    id: number;
+}
+
+const currentUser = {
+    id: 1234,
+    roles: ["ContactEditor"],
+    isInRole(role: string): boolean {
+        return this.roles.contains(role);
+    }
+}
+
+class ContactRepository {
+    private contacts: Contact[] = [];
+
+    getContactById(id: number): Contact | null {
+        console.trace(`ContactRepository.getContactById: BEGIN`);
+
+        if (!currentUser.isInRole("ContactViewer")) {
+            throw Error("User not authorized to execute this action");
+        }
+
+        const contact = this.contacts.find(x => x.id === id);
+
+        console.debug(`ContactRepository.getContactById: END`);
+
+        return contact;
+    }
+
+    save(contact: Contact): void {
+        console.trace(`ContactRepository.save: BEGIN`);
+
+        if (!currentUser.isInRole("ContactEditor")) {
+            throw Error("User not authorized to execute this action");
+        }
+
+        const existing = this.getContactById(contact.id);
+
+        if (existing) {
+            Object.assign(existing, contact);
+        } else {
+            this.contacts.push(contact);
+        }
+
+        console.debug(`ContactRepository.save: END`);
+    }
+}
 ```
