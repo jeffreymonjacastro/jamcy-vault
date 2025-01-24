@@ -451,9 +451,9 @@ interface Query {
     matches(val): boolean;
 }
 
-function searchContacts(contacts: Contact[], query) {
+function searchContacts(contacts: Contact[], query: Record<keyof Contact, Query>) {
     return contacts.filter(contact => {
-        for (const property of Object.keys(contact)) {
+        for (const property of Object.keys(contact) as (keyof Contact)[]) {
             // get the query object for this property
             const propertyQuery = query[property];
             // check to see if it matches
@@ -471,7 +471,27 @@ const filteredContacts = searchContacts(
     {
         id: { matches: (id) => id === 123 },
         name: { matches: (name) => name === "Carol Weaver" },
-        phoneNumber: { matches: (name) => name === "Carol Weaver" },
     }
 );
+```
+
+# Using statement
++ Ensures that the resources your application is consuming are properly cleaned up after use even when the code using them results in an error.
+
+```typescript
+class TempData {
+	private filePath: string;
+	
+	constructor(id?: string) {
+		this.filePath = `${id || new Date().toISOString()}.txt`;
+	}
+
+	write(data: string) {
+		fs.writeFileSync(this.filePath, data);
+	}
+
+	clear() {
+		fs.unlink
+	}
+}
 ```
