@@ -15,6 +15,8 @@
 		"noEmit": true, // Tells tsc not to write out anything to disk at all and just checking types
 		"allowJs": true, // Enables searching of existing js files
 		"checkJs": true, // Enables checking of existing js files
+		"experimentalDecorators": true, // To use decorators
+		"emitDecoratorMetadata": true, // Optional for decorators
 	}
 }
 ```
@@ -646,6 +648,12 @@ const filteredContacts = searchContacts(
 ```
 
 # Decorators
++ Metadata that you can add to your classes, methods and even, getter and setter properties.
++ You can add far more than just information. You can actually extend these elements with additional behavior, allowing you to add that behavior to your code without actually changing your code
+
+> **Important**
+> You have to add some configurations into tsconfig file and install the reflect-metadata library:
+> `npm i reflected-metadata --save`
 
 ```typescript
 interface Contact {
@@ -660,30 +668,20 @@ const currentUser = {
     }
 }
 
+// Decorators
+@log
 class ContactRepository {
     private contacts: Contact[] = [];
 
+	@authorize("ContactViewer")
     getContactById(id: number): Contact | null {
-        console.trace(`ContactRepository.getContactById: BEGIN`);
-
-        if (!currentUser.isInRole("ContactViewer")) {
-            throw Error("User not authorized to execute this action");
-        }
-
         const contact = this.contacts.find(x => x.id === id);
-
-        console.debug(`ContactRepository.getContactById: END`);
 
         return contact;
     }
 
+	@authorize("ContactEditor")
     save(contact: Contact): void {
-        console.trace(`ContactRepository.save: BEGIN`);
-
-        if (!currentUser.isInRole("ContactEditor")) {
-            throw Error("User not authorized to execute this action");
-        }
-
         const existing = this.getContactById(contact.id);
 
         if (existing) {
@@ -691,8 +689,69 @@ class ContactRepository {
         } else {
             this.contacts.push(contact);
         }
-
-        console.debug(`ContactRepository.save: END`);
     }
 }
 ```
+
+## Create a method decorator
++ Is like creating a function
+
+```typescript
+interface Contact {
+    id: number;
+}
+
+const currentUser = {
+    id: 1234,
+    roles: ["ContactEditor"],
+    isAuthenticated(): boolean {
+        return true
+    },
+    isInRole(role: string): boolean {
+        return this.roles.contains(role);
+    }
+}
+
+// Parameters:
+// target = The object that decorator will applied to
+// property = Name of the property that the decorator is applied to
+// descriptor = Object containing the current metadata
+function authorize(target: any, property: string, descriptor: PropertyDescriptor) {
+	const wrapped = descriptor.value
+	
+	descriptor.value = function () {
+		if(!currentUser.isAuthenticated()) {
+			throw Error("User is not authenticated");
+		}
+
+		return wrapped.apply(this, arguments)
+	}
+}
+
+
+class ContactRepository {
+    private contacts: Contact[] = [];
+
+    @authorize("ContactViewer")
+    getContactById(id: number): Contact | null {
+        if (!currentUser.isInRole("ContactViewer")) {
+            throw Error("User not authorized to execute this action");
+        }
+
+        const contact = this.contacts.find(x => x.id === id);
+        return contact;
+    }
+
+    @authorize("ContactEditor")
+    save(contact: Contact): void {
+        const existing = this.getContactById(contact.id);
+
+        if (existing) {
+            Object.assign(existing, contact);
+        } else {
+            this.contacts.push(contact);
+        }
+    }
+}
+```
+
