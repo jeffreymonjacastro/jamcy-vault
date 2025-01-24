@@ -306,6 +306,8 @@ const value = getValue({min: 1, max: 200}, "min")
 ```
 
 # Typeof operator
++ compile runtime
++ Returns the type 
 
 ```typescript
 const x = "string"
@@ -333,7 +335,7 @@ function toContact(nameOrContact: string | Contact): Contact {
             status: nameOrContact.status
         }
     }
-    else {
+    else { // Tsc infers automatically that the type is string
         return {
             id: 0,
             name: nameOrContact,
@@ -343,4 +345,10 @@ function toContact(nameOrContact: string | Contact): Contact {
 }
 
 const myType = {min: 1, max: 200}
+
+// The parameter source must match the same structure as myType
+function save(source: typeof myType) {}
 ```
+
+# Indexed access types
++ Determine the type of a certain property
