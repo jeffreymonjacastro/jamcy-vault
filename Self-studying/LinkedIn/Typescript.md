@@ -352,3 +352,122 @@ function save(source: typeof myType) {}
 
 # Indexed access types
 + Determine the type of a certain property
++ It's the same as javascript syntax 
+
+```typescript
+type ContactStatus = "active" | "inactive" | "new";
+
+interface Address {
+    street: string;
+    province: string;
+    postalCode: string;
+}
+
+interface Contact {
+    id: number;
+    name: string;
+    status: ContactStatus;
+    address: Address;
+}
+
+type Awesome = Contact["id"]; // Awesome will be a number
+type Awesome2 = Contact["address"]["postalCode"]; // Awesome will be a string
+
+interface ContactEvent {
+    contactId: Contact["id"];
+}
+
+interface ContactDeletedEvent extends ContactEvent { 
+}
+
+interface ContactStatusChangedEvent extends ContactEvent { 
+    oldStatus: Contact["status"];
+    newStatus: Contact["status"]; 
+}
+
+interface ContactEvents {
+    deleted: ContactDeletedEvent;
+    statusChanged: ContactStatusChangedEvent;
+    // ... and so on
+}
+
+function getValue<T, U extends keyof T>(source: T, propertyName: U) {
+    return source[propertyName];
+}
+
+// IDK what is going on, but it referes to index types
+function handleEvent<T, U extends keyof ContactEvents>(
+	eventName: T,
+	handler: (evt: ContactEvents[T]) => void
+) {
+	if (eventName === "statusChanged") {
+		handler({contactId: 1, oldStatus: "active", newStatus: "inactive"})
+	}
+}
+
+handleEvent("statusChanged", evt => evt)
+```
+
+# Record type
++ Avoids using any type
++ Is a very flexible type definition that allows you to define some structures and even some typing without having to detail every possible property of the type youre trying to describe
++ Syntax:
+	+ It's a generic syntax with two generic parameters
+	+ The first parameter is the possible property values
+	+ The second is the possible property types
+
+```typescript
+let x: any = { name: "Wruce Bayne" };
+x.id = 1234;
+x = "banana";
+x = true;
+x = () => console.log("awesome!");
+
+let x: Record<string, string> = {name: "Wruce Bayne"}
+
+////////////////////
+
+type ContactStatus = "active" | "inactive" | "new";
+
+interface Address {
+    street: string;
+    province: string;
+    postalCode: string;
+}
+
+interface Contact {
+    id: number;
+    name: string;
+    status: ContactStatus;
+    address: Address;
+}
+
+interface Query {
+    sort?: 'asc' | 'desc';
+    matches(val): boolean;
+}
+
+function searchContacts(contacts: Contact[], query) {
+    return contacts.filter(contact => {
+        for (const property of Object.keys(contact)) {
+            // get the query object for this property
+            const propertyQuery = query[property];
+            // check to see if it matches
+            if (propertyQuery && propertyQuery.matches(contact[property])) {
+                return true;
+            }
+        }
+
+        return false;
+    })
+}
+
+const filteredContacts = searchContacts(
+    [/* contacts */],
+    {
+        id: { matches: (id) => id === 123 },
+        name: { matches: (name) => name === "Carol Weaver" },
+        phoneNumber: { matches: (name) => name === "Carol Weaver" },
+    }
+);
+```
