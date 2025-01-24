@@ -130,6 +130,8 @@ const b = clone(a)
 + A type that represents any other type you might sustitute in
 + A placeholder type
 
+## Generic variables
+
 ```typescript
 interface Contact { 
 	id: number;
@@ -143,4 +145,65 @@ function clone<T>(source: T): T {
 
 const a: Contact = { id: 123, name: "Jeff"};
 const b = clone(a)
+
+const dateRange = { startDate: Date.now(), endDate: Date.now()}
+// Tsc dynamically replace T with the structure of this variable 
+const dateRangeCopy = clone(dateRange)
 ```
+
+## Multiple generic variables
+
+```typescript
+interface Contact { 
+	id: number;
+	name: string;
+}
+
+// Two generic types dynamically
+function clone<T1, T2>(source: T1): T2 {
+	return Object.apply({}, source)
+}
+
+// It's necessary to indicate Tsc the variable types
+const a: Contact = { id: 123, name: "Jeff"};
+const b = clone<Contact, Date>(a) // T1: Contact, T2: Date
+```
+
+## Generic constraints
++ Restrictic rules to some variables
+
+```typescript
+interface Contact { 
+	id: number;
+	name: string;
+}
+
+interface UserContact { 
+	id: number;
+	name: string;
+	username: string;
+}
+
+// Restriction: T2 type has to extend T1 type 
+function clone<T1, T2 extends T1>(source: T1): T2 {
+	return Object.apply({}, source)
+}
+
+const a: Contact = { id: 123, name: "Jeff"};
+// Here UserContact interface extends Contact interface
+const b = clone<Contact, UserContact>(a) 
+```
+
+## Generics applied to everywhere
+### Interfaces
+```typescript
+// Generic type to a interface
+interface UserContact<TExternalId> { 
+	id: number;
+	name: string;
+	username: string;
+	externalId: TExternalId; // Generic type
+	loadExternalId(): Task<TExternalId> 
+}
+```
+
