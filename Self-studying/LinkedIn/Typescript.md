@@ -732,17 +732,13 @@ function authorize(target: any, property: string, descriptor: PropertyDescriptor
 class ContactRepository {
     private contacts: Contact[] = [];
 
-    @authorize("ContactViewer")
+    @authorize
     getContactById(id: number): Contact | null {
-        if (!currentUser.isInRole("ContactViewer")) {
-            throw Error("User not authorized to execute this action");
-        }
-
         const contact = this.contacts.find(x => x.id === id);
         return contact;
     }
 
-    @authorize("ContactEditor")
+    @authorize
     save(contact: Contact): void {
         const existing = this.getContactById(contact.id);
 
