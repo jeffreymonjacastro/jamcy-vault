@@ -113,6 +113,7 @@ type ContactName = string
 interface Contact { 
 	id: number;
 	name: string;
+	clone(name: string): Contact;
 }
 
 // parameters and functions can have their own type
