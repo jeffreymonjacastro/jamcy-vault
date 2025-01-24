@@ -477,6 +477,7 @@ const filteredContacts = searchContacts(
 
 # Using statement
 + Ensures that the resources your application is consuming are properly cleaned up after use even when the code using them results in an error.
++ Makes applications more reliable and mantainable
 
 ```typescript
 class TempData {
@@ -491,7 +492,148 @@ class TempData {
 	}
 
 	clear() {
-		fs.unlink
+		fs.unlinkSync(this.filePath);
+	}
+
+	// For using keyword to clean up
+	[Symbol.dispose]() {
+		this.clear();
 	}
 }
+
+function writeTempData() {
+	using temp = new TempData();
+	temp.write("This is great!");
+}
+
+writeTempData();
+```
+
+# Extending and modifying existing types
++ Utility types that allow you to extend from existing types, like record, but pick and choose which properties you want to include and exclude in your new type.
+	+ **Partial:** Creates a new type that looks exactly like the type it wraps, but with all of its partials defined as optional
+	+ **Omit:** the omit helper is a generic type that wraps another type and copies that type's definition, but, like its name suggests, it allows you to omit certain properties from that cloned definition. Unlike partial, however, the omit helper requires a second generic parameter, the list of property names that you'd like to omit.
+	+ **Pick:** It creates a new type using only the properties named by its second generic parameter.
+	+ **Required:** which is the opposite of the partial helper, turning all properties of a type to required properties, instead of optional.
+
+```typescript
+type ContactStatus = "active" | "inactive" | "new";
+
+interface Address {
+    street: string;
+    province: string;
+    postalCode: string;
+}
+
+interface Contact {
+    id: number;
+    name: string;
+    status: ContactStatus;
+    address: Address;
+}
+
+interface Query {
+    sort?: 'asc' | 'desc';
+    matches(val): boolean;
+}
+
+// Partial type
+type ContactQuery = Partial<Record<keyof Contact, Query>>;
+
+// Omit type
+type ContactQuery = 
+	Omit<
+		Partial<
+			Record<keyof Contact, Query>
+		>, 
+		"address" | "status"
+	>;
+
+// Pick type
+type ContactQuery = 
+	Partial<
+		Pick<
+			Record<keyof Contact, Query>,
+			"id" | "name"
+		> 
+	>;
+	
+// Required
+type RequiredContactQuery = Required<ContactQuery> 
+
+function searchContacts(contacts: Contact[], query: ContactQuery) {
+    return contacts.filter(contact => {
+        for (const property of Object.keys(contact) as (keyof Contact)[]) {
+            // get the query object for this property
+            const propertyQuery = query[property];
+            // check to see if it matches
+            if (propertyQuery && propertyQuery.matches(contact[property])) {
+                return true;
+            }
+        }
+
+        return false;
+    })
+}
+
+const filteredContacts = searchContacts(
+    [/* contacts */],
+    {
+        id: { matches: (id) => id === 123 },
+        name: { matches: (name) => name === "Carol Weaver" },
+    }
+);
+```
+
+# Extracting metadata from existing types
++ Mapped
+
+```typescript
+type ContactStatus = "active" | "inactive" | "new";
+
+interface Address {
+    street: string;
+    province: string;
+    postalCode: string;
+}
+
+interface Contact {
+    id: number;
+    name: string;
+    status: ContactStatus;
+    address: Address;
+}
+
+interface Query {
+    sort?: 'asc' | 'desc';
+    matches(val): boolean;
+}
+
+type ContactQuery = {
+	[TProp in ]
+}
+
+function searchContacts(contacts: Contact[], query: ContactQuery) {
+    return contacts.filter(contact => {
+        for (const property of Object.keys(contact) as (keyof Contact)[]) {
+            // get the query object for this property
+            const propertyQuery = query[property];
+            // check to see if it matches
+            if (propertyQuery && propertyQuery.matches(contact[property])) {
+                return true;
+            }
+        }
+
+        return false;
+    })
+}
+
+const filteredContacts = searchContacts(
+    [/* contacts */],
+    {
+        id: { matches: (id) => id === 123 },
+        name: { matches: (name) => name === "Carol Weaver" },
+    }
+);
+
 ```
