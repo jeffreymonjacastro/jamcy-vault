@@ -214,16 +214,21 @@ interface UserContact<TExternalId> {
 ```typescript
 type ContactName = string;
 
-enum ContactStatus {
-    Active = "active",
-    Inactive = "inactive",
-    New = "new"
-}
+// enum ContactStatus {
+//    Active = "active",
+//    Inactive = "inactive",
+//    New = "new"
+//}
+
+// Instead of using enum
+type ContactStatus = "active" | "inactive" | "new";
+
+type ContactBirthDate = Date | number | string; // Accept one of those types
 
 interface Contact {
     id: number;
     name: ContactName; // Type aliases
-    birthDate?: Date | number | string; // Union aliases
+    birthDate?: ContactBirthDate;
     status?: ContactStatus;
 }
 
@@ -235,11 +240,13 @@ interface Address {
     postalCode: string;
 }
 
+type AddressableContact = Contact & Address; // Creates a new type with the union
+
 function getBirthDate(contact: Contact) {
-    if (typeof contact.birthDate === "number") {
+    if (typeof contact.birthDate === "number") { // typeof number
         return new Date(contact.birthDate);
     }
-    else if (typeof contact.birthDate === "string") {
+    else if (typeof contact.birthDate === "string") { // typeof string 
         return Date.parse(contact.birthDate)
     }
     else {
@@ -249,6 +256,28 @@ function getBirthDate(contact: Contact) {
 
 let primaryContact: Contact = {
     id: 12345,
-    name: "Jamie Johnson"
+    name: "Jamie Johnson",
+    status: "active" // Write the values directly, without enum syntax
+}
+```
+
+# Keyof operator
+
+```typescript
+type ContactName = string;
+type ContactStatus = "active" | "inactive" | "new"
+type ContactBirthDate = Date | number | string
+
+interface Contact  {
+    id: number;
+    name: ContactName;
+    birthDate?: ContactBirthDate;
+    status?: ContactStatus;
+}
+
+let primaryContact: Contact = {
+    id: 12345,
+    name: "Jamie Johnson",
+    status: "active"
 }
 ```
