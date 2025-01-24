@@ -417,13 +417,17 @@ handleEvent("statusChanged", evt => evt)
 	+ The second is the possible property types
 
 ```typescript
+// Not recommended using any
 let x: any = { name: "Wruce Bayne" };
 x.id = 1234;
 x = "banana";
 x = true;
 x = () => console.log("awesome!");
 
-let x: Record<string, string> = {name: "Wruce Bayne"}
+let x: Record<string, string | number | boolean | Function > = {name: "Wruce Bayne"}
+x.number = 1234;
+x.active = true;
+x.log = () => console.log("awesome!");
 
 ////////////////////
 
