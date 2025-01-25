@@ -8,6 +8,8 @@
 + [Can I use](https://caniuse.com)
 + [Quirks Mode](https://quirksmode.org)
 + [Link to Github source](https://github.com/LinkedInLearning/learning-the-javascript-language-4369302)
+
+![[Pasted image 20250125170228.png]]
 # Variables and Types
 ## Declaring and assigning variables
 
