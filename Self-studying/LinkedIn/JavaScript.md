@@ -1284,17 +1284,38 @@ async function getLotsOfThings() {
 
 ## Object-oriented 
 
-```javascript
+![[Pasted image 20250125145145.png]]
 
+```javascript
+/**
+ * Classes
+ */
+
+let Cake = {};
+
+Cake.prototype.bake = function(temp, minutes) {
+  // Bake a cake at a particular temperature
+  // for a number of minutes
+}
+
+class CakeClass {
+  bake(temp, minutes) {
+
+  }
+}
 ```
 
 ## Strong vs. loosely typed
 
-```javascript
-
-```
 
 ## Modern JavaScript
-
+Webpack
+Rollup
+Vite
+Axios
+Yarn
+Npm
+Babel
+TypeScript
 
 ## Responsible JavaScript
