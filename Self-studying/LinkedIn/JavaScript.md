@@ -51,7 +51,7 @@ Joe's Favorite \
 String EVER";
 ```
 
-## String properties and methods
+### String properties and methods
 
 ```javascript
 var myString = "This is my string. Leave it alone";
@@ -130,22 +130,232 @@ let cookieCount = 5;
 ## Objects
 
 ```javascript
+12;
+("strings");
+true;
 
+// prettier-ignore
+{}
+var emptyObject = {};
+emptyObject;
+
+var notEmptyObject = {
+  label: "value",
+  label2: "value2",
+};
+notEmptyObject;
 ```
 
-## Using objects for data modeling
+### Using objects for data modeling
+
+```javascript
+let bird = {
+  genus: "corvus",
+  species: "corvax",
+  commonName: "raven",
+  callType: "squawky",
+  quote: "Nevermore",
+  maxOffspring: 5,
+  noisy: true,
+  deadly: false,
+};
+
+let bear = {
+  genus: "ursus",
+  species: "arctos",
+  commonName: "brown bear",
+  callType: "roar",
+  quote: "",
+  maxOffspring: 3,
+  noisy: true,
+  deadly: true,
+};
+
+const bookOfKnowledge = {
+  "lunch time": "12:30 PM",
+  "the ultimate answer": 42,
+  bestSong: "Lonnie's Lament",
+  earth: "Mostly harmless.",
+};
+```
+
+### Manipulating objects
 
 ```javascript
 
 ```
 
-## Manipulating objects
+## Jargon: References
 
 ```javascript
 
 ```
 
-## 
+## Arrays
+
+```javascript
+
+```
+
+### Manipulating Arrays
+
+```javascript
+
+```
+
+## Readability 
+### Whitespace
+
+```javascript
+
+```
+
+### Comments
+
+```javascript
+
+```
+
+## Regular expressions
+
+```javascript
+
+```
+
+# Operators
+
+## Simple Comparisons
+
+```javascript
+
+```
+
+## Arirhmetic operators
+
+```javascript
+
+```
+
+## Logical operators
+
+```javascript
+
+```
+
+# Control Structures
+
+## Conditionals: If
+
+```javascript
+
+```
+
+### Terse ifs: One-liners
+
+```javascript
+
+```
+
+### Terse ifs: Terenaries
+
+```javascript
+
+```
+## Conditionals: Switch
+
+```javascript
+
+```
+
+## Type Checking
+
+```javascript
+
+```
+
+# Loops
+
+## For loops
+
+### Sequential
+
+```javascript
+
+```
+
+### Enumerative
+
+```javascript
+
+```
+
+## Set and Maps
 
 ![[Pasted image 20250124235236.png]]
 ![[Pasted image 20250124235847.png]]
+
+```javascript
+
+```
+
+## While loops
+
+```javascript
+
+```
+
+# Functions
+
+## Basic functions
+
+```javascript
+
+```
+
+## Arguments and parameters
+
+```javascript
+
+```
+
+## Objects, references, and functions
+
+```javascript
+
+```
+
+## Functions are objects
+
+```javascript
+
+```
+
+## Jargon: Scope in JavaScript
+
+```javascript
+
+```
+
+## Functions and scope
+
+```javascript
+
+```
+
+## Arrow functions
+
+```javascript
+
+```
+
+## Three little dots
+
+```javascript
+
+```
+
+## Callback functions and looping
+
+```javascript
+
+```
