@@ -7,7 +7,7 @@
 + [Mozilla](https://developer.mozilla.org)
 + [Can I use](https://caniuse.com)
 + [Quirks Mode](https://quirksmode.org)
-
++ [Link to Github source](https://github.com/LinkedInLearning/learning-the-javascript-language-4369302)
 # Variables and Types
 ## Declaring and assigning variables
 
