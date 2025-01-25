@@ -8,4 +8,5 @@
 + [Can I use](https://caniuse.com)
 + [Quirks Mode](https://quirksmode.org)
 
-
+![[Pasted image 20250124235236.png]]
+![[Pasted image 20250124235847.png]]
