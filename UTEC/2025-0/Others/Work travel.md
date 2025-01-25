@@ -34,7 +34,7 @@
 | IT System Engineering Intern                 | Pinterest                   |      |
 | Practicante de TI                            | QROMA                       |      |
 | Practicante de Analytics                     | Interbank                   |      |
-|                                              |                             |      |
+| Full Stack Engineer Intern                   | Fitia                       |      |
 
 
 # Full Stack roles
