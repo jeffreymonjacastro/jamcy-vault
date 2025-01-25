@@ -1044,35 +1044,257 @@ function transmogrifyCopy(calvin) {
 ## Functions are objects
 
 ```javascript
+function speakSomething(what = 'Speaking!') {
+  for (var i = 0; i < 10; i += 1) {
+    console.log(what);
+  }
+}
 
-```
+var speakSomething = function(what = 'Speaking!') {
+  for (var i = 0; i < 10; i += 1) {
+    console.log(what);
+  }
+};
 
-## Jargon: Scope in JavaScript
+setTimeout(speakSomething, 5000);
 
-```javascript
+var obj = {
+  sayHello: function() {
+    console.log("Hello");
+  }
+};
 
+obj.sayHello();
 ```
 
 ## Functions and scope
 
 ```javascript
+// Shim allowing this code to work in a browser as well as node
+if (!global && typeof window !== 'undefined') {
+  var global = window;
+}
 
+var myNum = 32;
+var myResult = "Success!";
+
+function randomizer(limit) {
+  var randomNumber = Math.floor(Math.random() * limit);
+
+  var myNum = randomNumber;
+
+  console.log("Local myNum is", myNum);
+  console.log("Global myNum is", global.myNum);
+
+  console.log("Our result is", myResult);
+
+  return myNum;
+}
+
+randomizer(10);
+
+function doubleIt(num) {
+  var myNum = num * 2;
+
+  return myNum;
+}
+
+if (1 === 1) {
+  const oneIsOne = 'Yes indeed.';
+  console.log('One is one, right?', oneIsOne);
+}
+
+console.log('One is still one, right?', oneIsOne); // ReferenceError
 ```
 
 ## Arrow functions
 
 ```javascript
+// Before:
+const speak = function () {
+  console.log("Arf");
+  console.log("Woof");
+  console.log("Meow");
+  console.log("Moooooooooooo");
+};
 
+// After:
+const speak = () => {
+  console.log("Arf");
+  console.log("Woof");
+  console.log("Meow");
+  console.log("Moooooooooooo");
+};
+
+// Before:
+function isEven(num) {
+  return num % 2 === 0;
+}
+
+// After:
+let isEven = (num) => {
+  return num % 2 === 0;
+};
+
+// or:
+isEven = (num) => num % 2 === 0;
+
+// And most succinctly:
+// prettier-ignore
+isEven = num => num % 2 === 0;
 ```
 
 ## Three little dots
 
 ```javascript
+// function addingMachine(...terms)
 
+function addingMachine(...terms) {
+  // initialize the total we'll be returning
+  var total = 0;
+
+  // this used to be `arguments` instead of `terms`
+  for (var i = 0; i < terms.length; i += 1) {
+    // grab the next number
+    var number = terms[i];
+
+    // check if the argument is a number.
+    // if so, add it to the running total
+    if (typeof number === "number") {
+      total += number;
+    }
+  }
+
+  // done - return the total
+  return total;
+}
+
+function bake(temp = 350, time = 35, ...flavors) {
+  console.log(`Let's bake this cake at ${temp} degrees,`);
+  console.log(`for ${time} minutes\n`);
+  
+  if (flavors.length > 0) {
+    console.log("And let's not forget these flavors", flavors);
+  }
+  
+  console.log("Arguments contains everything", arguments);
+}
+
+bake(425, 30, 'chocolate', 'lemon', 'black forest');
+bake(300, 30, 'vanilla');
+bake();
 ```
 
 ## Callback functions and looping
 
 ```javascript
+function doubleIt(number) {
+  return (number *= 2);
+}
+
+var myNumbers = [1, 2, 3, 4, 5];
+
+var myDoubles = myNumbers.map(doubleIt);
+
+myNumbers.forEach(function (number) {
+  console.log("My array contains", number);
+});
+
+myNumbers.forEach((number) => {
+  console.log("My array contains", number);
+});
+
+// this is a browser-based example
+const myTextField = document.getElementById("myTextField");
+myTextField.addEventListener("keyup", () => {
+  console.log("Someone is typing!");
+});
+```
+
+# Advanced topics
+
+## Asynchronous code
+
+```javascript
+/**
+ * Callbacks
+ */
+
+// With one, it's simple enough
+jQuery.get("https://httpbin.org/get?data=1", function(response) {
+  // Now I have some data
+});
+
+// Callbacks get nested ad infinitum
+jQuery.get("https://httpbin.org/get", function(response) {
+  // Now I have some data
+
+  jQuery.get("https://httpbin.org/get", function(response) {
+    // Now I have some more data
+
+    jQuery.get("https://httpbin.org/get", function(response) {
+      // Now I have even more data!
+    });
+  });
+});
+
+/**
+ * Promises
+ */
+
+// One Promise
+axios.get("https://httpbin.org/get").then(function(response) {
+  // now I have some data
+});
+
+// Multiple promises in sequence, no nesting
+axios
+  .get("https://httpbin.org/get")
+  .then(function(response) {
+    // now I have some data
+
+    return axios.get("https://httpbin.org/get");
+  })
+  .then(function(response) {
+    // now I have some data
+
+    return axios.get("https://httpbin.org/get");
+  });
+
+/**
+ * Async / Await
+ */
+
+// One request
+async function getOneThing() {
+  var response = await axios.get("https://httpbin.org/get");
+
+  // now I have some data
+}
+
+// Multiple requests
+async function getLotsOfThings() {
+  var response1 = await axios.get("https://httpbin.org/get");
+  var response2 = await axios.get("https://httpbin.org/get");
+  var response3 = await axios.get("https://httpbin.org/get");
+
+  // Now I have lots of data
+}
+```
+
+## Object-oriented 
+
+```javascript
 
 ```
+
+## Strong vs. loosely typed
+
+```javascript
+
+```
+
+## Modern JavaScript
+
+
+## Responsible JavaScript
