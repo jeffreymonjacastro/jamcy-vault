@@ -11,11 +11,16 @@
 + No negative score 
 + It's not possible to go to previous questions
 + SUMADI doesn't permit two monitors :c
-+ 
++ Structure
+	+ The questions are in disorder
+	+ 20 questions of reading
+	+ 20 questions of listening (different audios)
+		+ Hack: Put the audios in x1.5
+	+ 30 questions of gramar
 
 ![[Pasted image 20250126110334.png]]
 
 # Links
-[A full exam review in Youtube](https://www.youtube.com/watch?v=vfXvSEp1Cg0)
+[A full exam review in Youtube (Past Exam)](https://www.youtube.com/watch?v=vfXvSEp1Cg0)
 [Listening part 1 in Youtube](https://www.youtube.com/watch?v=wkjKij2gYb0)
 
