@@ -1,6 +1,6 @@
 # General Information
 [UPC official info](https://www.upc.edu.pe/ingles-en-la-upc/prueba-de-definicion-de-niveles/)
-
+[Sumadi Download](https://app-electron-latam.sumadi.net/download/app/es/us/global/v2)
 ## Reglamento
 ![[REGLAMENTO_DEL_CENTRO_DE_IDIOMAS_DE_LA_UPC_PROGRAMA_DE_INGLES_WE_TALK_UPC__RECTIFICADO_.pdf|page 1]]
 
