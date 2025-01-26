@@ -4,6 +4,9 @@
 ## Reglamento
 ![[REGLAMENTO_DEL_CENTRO_DE_IDIOMAS_DE_LA_UPC_PROGRAMA_DE_INGLES_WE_TALK_UPC__RECTIFICADO_.pdf|page 1]]
 
+## Convalidation
+![[Pasted image 20250126115134.png]]
+* The
 ## Important
 + No negative score 
 + It's not possible to go to previous questions
