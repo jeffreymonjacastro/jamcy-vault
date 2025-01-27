@@ -21,4 +21,4 @@ Obsidian vault
 [[English Index]]
 
 ### Vim
-[[Vim]]
+[[My Vim config]]
