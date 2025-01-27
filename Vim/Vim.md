@@ -28,6 +28,7 @@
 - l = Up
 - ; = Right
 - U = Redo
+- p = paste 
 - 
 
 
