@@ -8,11 +8,11 @@
 + **b:** Jumps to the begin of the previous word
 
 # Configuration
-| Description     | Neovim                        | VSCode                           | JetBrains          |
-| --------------- | ----------------------------- | -------------------------------- | ------------------ |
-| Config file     | ~/AppData/Local/nvim/init.lua | settings.json, keybindings.json  | ~/.ideavimrc       |
-| Relative number | vim.opt.relativenumber = true | "editor.lineNumbers": "relative" | set relativenumber |
-|                 |                               |                                  |                    |
+| Description     | Neovim                        | VSCode                           | JetBrains           |
+| --------------- | ----------------------------- | -------------------------------- | ------------------- |
+| Config file     | ~/AppData/Local/nvim/init.lua | settings.json, keybindings.json  | ~/.ideavimrc        |
+| Relative number | vim.opt.relativenumber = true | "editor.lineNumbers": "relative" | set relativenumber  |
+| Leader key      | vim.g.mapleader = ' '         | space                            | let mapleader = ' ' |
 
 
 # My Keybinds
