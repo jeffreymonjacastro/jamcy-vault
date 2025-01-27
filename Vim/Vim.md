@@ -7,13 +7,14 @@
 + **e:** Jumps to the end of the next word
 + **b:** Jumps to the begin of the previous word
 
-# Keybinds
-| Description | Neovim | vscode | JetBrains |
-| ----------- | ------ | ------ | --------- |
-| Left        | j      | j      | j         |
-| Down        | k      | k      | k         |
-| Up          | l      | l      | l         |
-| Right       | ;      | ;      | ;         |
-|             |        |        |           |
+# My Keybinds
+## Motion
+- j = Left
+- k = Down
+- l = Up
+- ; = Right
+- 
+
+
 
 
