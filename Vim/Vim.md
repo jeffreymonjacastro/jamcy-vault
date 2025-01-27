@@ -28,7 +28,7 @@
 - l = Up
 - ; = Right
 - U = Redo
-- p = paste 
+- p = paste without overwritting
 - 
 
 
