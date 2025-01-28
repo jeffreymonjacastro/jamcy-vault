@@ -14,7 +14,7 @@
 | Enter Config file | leader + cc                                           | Ctrl + Shift + P                 | leader + cc                         |
 | Relative number   | vim.opt.relativenumber = true                         | "editor.lineNumbers": "relative" | set relativenumber                  |
 | Leader key        | vim.g.mapleader = ' '                                 | space                            | let mapleader = ' '                 |
-| System clipboard  | vim.opt.clipboard = 'unnamedplus'                     | "vim.useSystemClipboard": true   | set clipboard^=unnamed,unnamedplus  |
+| System clipboard  | vim.opt.clipboard = 'unnamedplus'                     | "vim.useSystemClipboard": true   | set clipboard^=unnamed, unnamedplus |
 | ignorecase        | vim.opt.ignorecase = true<br>                         |                                  | set ignorecase<br>                  |
 | smartcase         | vim.opt.smartcase = true                              |                                  | set smartcase                       |
 | incsearch         | default                                               | "vim.incsearch": true,           | set incsearch                       |
