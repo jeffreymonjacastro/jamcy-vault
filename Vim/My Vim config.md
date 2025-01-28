@@ -36,6 +36,8 @@
 - | = Move to the previous character occured using f, t, F, T
 - % = Move between pair of brackets [:], {:}, (:), <:>
 - J = Smart line join
+- w = Move to the beginning of the next word
+- 
 
 
 
