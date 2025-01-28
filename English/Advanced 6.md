@@ -305,3 +305,10 @@ When did you last put something off? Why?What was it?
 
 # Exam
 ![[Pasted image 20250128161012.png]]
+
+https://virtuaule.com/fce-listening-practice/test-6/588-fce-listening006-2.html
+![[Pasted image 20250128164117.png]]
+
+![[Pasted image 20250128164100.png]]
+carnaiz@britanico.edu.pe
+FULL NAME / WRITTING TEST / AD6
