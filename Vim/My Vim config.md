@@ -19,7 +19,7 @@
 | smartcase             | vim.opt.smartcase = true                              |                                  | set smartcase                       |
 | incsearch             | default                                               | "vim.incsearch": true,           | set incsearch                       |
 | Remove hlsearch       | vim.keymap.set('n', '\<Esc>', ':nohlsearch\<cr>')<br> |                                  | noremap \<Esc> :nohlsearch\<cr><br> |
-| Add <:> to matchpairs | vim.opt.matchpairs:append("<:>")                      | No supported                     | set matchpairs+=<:><br>             |
+| Add <:> to matchpairs | vim.opt.matchpairs:append("<:>")                      | No supported by vim-extension    | set matchpairs+=<:><br>             |
 | Showmatch             | vim.opt.showmatch = true                              | Default                          | set showmatch                       |
 |                       |                                                       |                                  |                                     |
 
