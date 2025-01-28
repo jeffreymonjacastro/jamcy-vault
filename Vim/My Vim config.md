@@ -29,7 +29,8 @@
 - ; = Right
 - U = Redo
 - p = paste without overwritting
-- 
+- \ = Move to the next characted occured using f, t, F, T
+- | = Move to the previous character occured using f, t, F, T
 
 
 
