@@ -303,3 +303,5 @@ When did you last put something off? Why?What was it?
 9 - 1
 10 - 10
 
+# Exam
+![[Pasted image 20250128161012.png]]
