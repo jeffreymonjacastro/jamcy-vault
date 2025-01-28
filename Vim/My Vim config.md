@@ -29,7 +29,7 @@
 - j = Left
 - k = Down
 - l = Up
-- ; = Right
+- ; = Right 
 - U = Redo
 - p = paste without overwritting in visual mode
 - \ = Move to the next characted occured using f, t, F, T
