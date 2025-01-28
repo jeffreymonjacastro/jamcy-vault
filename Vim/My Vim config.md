@@ -31,6 +31,7 @@
 - p = paste without overwritting in visual mode
 - \ = Move to the next characted occured using f, t, F, T
 - | = Move to the previous character occured using f, t, F, T
+- % = Move between pair of brackets [:], {:}, (:), <:>
 
 
 
