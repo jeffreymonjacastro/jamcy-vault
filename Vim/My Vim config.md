@@ -45,7 +45,7 @@
 - Alt+k = Go to the bottom split
 - Alt+i = Go to the top split 
 - Alt+; = Go to the left split
-- 
+-  
 
 
 
