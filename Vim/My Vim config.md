@@ -36,10 +36,16 @@
 - | = Move to the previous character occured using f, t, F, T
 - % = Move between pair of brackets [:], {:}, (:), <:>
 - J = Smart line join
+- jj = Exit insert mode
 - w = Move to the beginning of the next subword
 - e = Move to the end of the next subword (only jetbrains)
 - b = Move to the beginning of the previous subword
 - ge = Move to the end of the previous subword (only jetbrains)
+- Alt+j = Go to the left split
+- Alt+k = Go to the bottom split
+- Alt+i = Go to the top split 
+- Alt+; = Go to the left split
+- 
 
 
 
