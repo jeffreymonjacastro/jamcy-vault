@@ -303,6 +303,9 @@ When did you last put something off? Why?What was it?
 9 - 1
 10 - 10
 
+## Sesision
+What examples of safety measures can you think about? In order to avoid be robbed
+
 # Exam
 ![[Pasted image 20250128161012.png]]
 
