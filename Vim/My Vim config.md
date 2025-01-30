@@ -51,4 +51,6 @@
 - \<leader>wh = Split the same file horizontally
 - \<leader>ww = Unsplit and move the window to the previous one (nvim closes)
 - \<leader>wa = Unsplit all the editors and join them to one (nvim closes)
-- 
+- Ctrl+s = Save file (jetbrains autosave)
+- Ctrl+w = Close file
+
