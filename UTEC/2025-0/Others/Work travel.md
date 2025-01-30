@@ -2,6 +2,8 @@
 ## Peru
 - [Laborum](https://www.laborum.pe)
 - [BairesDev](https://applicants.bairesdev.com/home?lang=es)
+- [Intercorp OracleCloud](https://epvw.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/es/sites/CX_1/my-profile)
+- [Kuali.ai Yape](https://pier.silabuz.com/dashboard)
 - 
 
 
@@ -35,6 +37,9 @@
 | Practicante de TI                            | QROMA                       |      |
 | Practicante de Analytics                     | Interbank                   |      |
 | Full Stack Engineer Intern                   | Fitia                       |      |
+| Practicante de Tecnología                    | Interbank                   |      |
+| Starters IR - Prácticas preprofesionales     | Intercorp Retail            |      |
+|                                              |                             |      |
 
 
 # Full Stack roles
