@@ -244,6 +244,16 @@ All the vim motions are storage in a jump history
 `:bp` = Move to the previous buffer
 `:b <filename>|<number>`  = Move to specific buffer
 
+# Tabs
+## Usar Tabs (Agrupar archivos en diferentes "ventanas virtuales")
+
+Si quieres una separación más fuerte, puedes usar **tabs**:
+- `:tabnew archivo.txt` → Abrir un archivo en una nueva pestaña.
+- `:tabnext` (`:tabn`) → Ir a la siguiente pestaña.
+- `:tabprevious` (`:tabp`) → Ir a la pestaña anterior.
+- `:tabclose` → Cerrar la pestaña actual.
+
+Cada **tab** puede contener varios **splits**, lo que te permite organizar archivos en "grupos visuales" dentro de Neovim.
 # Read command
 `:r <filename>` = Paste all the content of a file in the position of the cursor
 

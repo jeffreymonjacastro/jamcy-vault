@@ -22,6 +22,8 @@
 | Add <:> to matchpairs | vim.opt.matchpairs:append("<:>")                      | No supported by vim-extension    | set matchpairs+=<:><br>             |
 | Showmatch             | vim.opt.showmatch = true                              | Default                          | set showmatch                       |
 |                       |                                                       |                                  |                                     |
+|                       |                                                       |                                  |                                     |
+|                       |                                                       |                                  |                                     |
 
 
 # My Keybinds
@@ -45,7 +47,8 @@
 - Alt+k = Go to the bottom split
 - Alt+i = Go to the top split 
 - Alt+; = Go to the left split
--  
-
-
-
+- \<leader>wv = Split the same file vertically
+- \<leader>wh = Split the same file horizontally
+- \<leader>ww = Unsplit and move the window to the previous one (nvim closes)
+- \<leader>wa = Unsplit all the editors and join them to one (nvim closes)
+- 
