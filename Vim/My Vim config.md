@@ -53,4 +53,6 @@
 - \<leader>wa = Unsplit all the editors and join them to one (nvim closes)
 - Ctrl+s = Save file (jetbrains autosave)
 - Ctrl+w = Close file
+- Tab = Move to the next editor in window (nvim no supported)
+- Shift+Tab = Move to the previous editor in window (nvim no supported)
 
