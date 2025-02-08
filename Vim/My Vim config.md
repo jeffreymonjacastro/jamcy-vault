@@ -55,4 +55,6 @@
 - Ctrl+w = Close file
 - Tab = Move to the next editor in window (nvim no supported)
 - Shift+Tab = Move to the previous editor in window (nvim no supported)
+- \<leader>, = Search for opened files
+- \<leader>\<leader> =  
 
