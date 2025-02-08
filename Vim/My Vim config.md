@@ -60,4 +60,6 @@
 - Ctrl+d = Duplicate Line
 - Ctrl+k = Move line down
 - Ctrl+l = Move line up
+- Alt+h = Hover over code for details
+- 
 
