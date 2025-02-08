@@ -57,5 +57,7 @@
 - Shift+Tab = Move to the previous editor in window (nvim no supported)
 - \<leader>, = Search for opened files
 - \<leader>\<leader> = Search files in all proyect or workspace
-- 
+- Ctrl+d = Duplicate Line
+- Ctrl+k = Move line down
+- Ctrl + l
 
