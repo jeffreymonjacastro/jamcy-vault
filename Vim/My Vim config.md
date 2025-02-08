@@ -59,5 +59,5 @@
 - \<leader>\<leader> = Search files in all proyect or workspace
 - Ctrl+d = Duplicate Line
 - Ctrl+k = Move line down
-- Ctrl + l
+- Ctrl+l = Move line up
 
