@@ -66,5 +66,7 @@
 - \<leader>ss = Go to symbol in function or class
 - \<leader>gd = Go to definition
 - \<leader>gr = Go to reference
-- Ctrl+o = Select next occurrence of word
+- Ctrl+o = Select next occurrence of word (Not working on jetbrains)
+- 
+
 
