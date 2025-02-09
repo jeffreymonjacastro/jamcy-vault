@@ -61,5 +61,6 @@
 - Ctrl+k = Move line down
 - Ctrl+l = Move line up
 - Alt+h = Hover over code for details
+- \<leader>ca = Trigger Code Action
 - 
 
