@@ -62,5 +62,6 @@
 - Ctrl+l = Move line up
 - Alt+h = Hover over code for details
 - \<leader>ca = Trigger Code Action
-- 
+- \<leader>re = Rename all instances of a variable (Not working on jetbrains)
+- \<leader>ss = Go to symbol in function or class
 
