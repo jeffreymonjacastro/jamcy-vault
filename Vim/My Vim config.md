@@ -64,4 +64,6 @@
 - \<leader>ca = Trigger Code Action
 - \<leader>re = Rename all instances of a variable (Not working on jetbrains)
 - \<leader>ss = Go to symbol in function or class
+- \<leader>gd = Go to definition
+- \<leader>gr = Go to reference
 
