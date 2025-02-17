@@ -69,5 +69,6 @@
 - Ctrl+o = Select next occurrence of word (Not working on jetbrains)
 - gcc = Toggle comment line (On Jetbrains gc)
 - gbc = Create block comment
+- Ctrl+t = Open horizontal terminal
 
 
