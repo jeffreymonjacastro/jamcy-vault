@@ -42,11 +42,11 @@
 | Practicante de Tecnología                    | Interbank                   |      |
 | Starters IR - Prácticas preprofesionales     | Intercorp Retail            |      |
 ### 2025-I
-| **Job**                      | Company   | **Date** | **Pass** |
-| ---------------------------- | --------- | -------- | -------- |
-| Programa de Prácticas        | BBVA      | 30/05    |          |
-| Practicante Data & Analytics | Prima AFP | 15/06    |          |
-|                              |           |          |          |
+| **Job**                                | Company         | **Date** | **Pass** |
+| -------------------------------------- | --------------- | -------- | -------- |
+| Programa de Prácticas                  | BBVA            | 30/05    |          |
+| Practicante Data & Analytics           | Prima AFP       | 15/06    |          |
+| Practicante Pre Profesional de Modelos | Banco Falabella | 15/06    |          |
 
 
 
