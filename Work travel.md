@@ -5,11 +5,13 @@
 - [Intercorp OracleCloud](https://epvw.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/es/sites/CX_1/my-profile)
 - [Kuali.ai Yape](https://pier.silabuz.com/dashboard)
 - 
-
-
+## Extranjero
++ a
 # Jobs Applied
 
 ## LinkedIn
+
+### 2025-0
 
 | Job                                          | Company                     | Pass |
 | -------------------------------------------- | --------------------------- | ---- |
@@ -39,7 +41,14 @@
 | Full Stack Engineer Intern                   | Fitia                       |      |
 | Practicante de Tecnología                    | Interbank                   |      |
 | Starters IR - Prácticas preprofesionales     | Intercorp Retail            |      |
-|                                              |                             |      |
+### 2025-I
+| **Job**                      | Company   | **Date** | **Pass** |
+| ---------------------------- | --------- | -------- | -------- |
+| Programa de Prácticas        | BBVA      | 30/05    |          |
+| Practicante Data & Analytics | Prima AFP | 15/06    |          |
+|                              |           |          |          |
+
+
 
 
 # Full Stack roles
