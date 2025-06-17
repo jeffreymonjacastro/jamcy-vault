@@ -52,7 +52,8 @@
 | [Programador Fullstack](https://www.linkedin.com/jobs/view/4232186474/?alternateChannel=search&refId=KNoNWWbS04wuP31e6b4Hhg%3D%3D&trackingId=gOs6iNmCkktW4z8kWzKm9Q%3D%3D&trk=d_flagship3_postapply_next_best_action)                                 | Inetum          | 15/06    |          |
 | * [Practicante de Inteligencia Artificial](https://www.linkedin.com/jobs/view/4250069782/?alternateChannel=search&refId=KNoNWWbS04wuP31e6b4Hhg%3D%3D&trackingId=1XuzEAeUtVHjycpThxOmwQ%3D%3D&trk=d_flagship3_search_srp_jobs)                         | Liderman        | 15/06    |          |
 | [# Practicante QA](https://www.bumeran.com.pe/empleos/practicante-qa-tivit-peru-1117739519.html)                                                                                                                                                      | TIVIT Perú      | 15/06    |          |
-|                                                                                                                                                                                                                                                       |                 |          |          |
+| [Android Developer Intern](https://fitia.notion.site/Fitia-Android-Developer-Intern-1c3786468d83803aa8bfc89201f9ae67)                                                                                                                                 | Fitia           | 16/06    |          |
+| [Desarrollador FrontEnd Jr](https://grupoprestamype.hiringroom.com/jobs/get_vacancy/684c9905e9e0ec97575a8d0c?source=linkedinjobs)                                                                                                                     | Prestamype      | 16/06    |          |
 
 
 
