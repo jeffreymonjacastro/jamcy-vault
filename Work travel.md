@@ -51,6 +51,7 @@
 | * [Fullstack Junior Developer](https://www.linkedin.com/jobs/view/4241631228/?alternateChannel=search&refId=KNoNWWbS04wuP31e6b4Hhg%3D%3D&trackingId=D%2FRHfZxY7vQCQntdEWYomA%3D%3D&trk=d_flagship3_search_srp_jobs)                                   | EY              | 15/06    |          |
 | [Programador Fullstack](https://www.linkedin.com/jobs/view/4232186474/?alternateChannel=search&refId=KNoNWWbS04wuP31e6b4Hhg%3D%3D&trackingId=gOs6iNmCkktW4z8kWzKm9Q%3D%3D&trk=d_flagship3_postapply_next_best_action)                                 | Inetum          | 15/06    |          |
 | * [Practicante de Inteligencia Artificial](https://www.linkedin.com/jobs/view/4250069782/?alternateChannel=search&refId=KNoNWWbS04wuP31e6b4Hhg%3D%3D&trackingId=1XuzEAeUtVHjycpThxOmwQ%3D%3D&trk=d_flagship3_search_srp_jobs)                         | Liderman        | 15/06    |          |
+| [# Practicante QA](https://www.bumeran.com.pe/empleos/practicante-qa-tivit-peru-1117739519.html)                                                                                                                                                      | TIVIT Perú      | 15/06    |          |
 |                                                                                                                                                                                                                                                       |                 |          |          |
 
 
