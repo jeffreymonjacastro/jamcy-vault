@@ -54,6 +54,7 @@
 | [# Practicante QA](https://www.bumeran.com.pe/empleos/practicante-qa-tivit-peru-1117739519.html)                                                                                                                                                      | TIVIT Perú      | 15/06    |          |
 | [Android Developer Intern](https://fitia.notion.site/Fitia-Android-Developer-Intern-1c3786468d83803aa8bfc89201f9ae67)                                                                                                                                 | Fitia           | 16/06    |          |
 | [Desarrollador FrontEnd Jr](https://grupoprestamype.hiringroom.com/jobs/get_vacancy/684c9905e9e0ec97575a8d0c?source=linkedinjobs)                                                                                                                     | Prestamype      | 16/06    |          |
+| [Analista de Software](https://grupoprestamype.hiringroom.com/jobs/get_vacancy/684c95f3b9f11db2bee36274?source=linkedinjobs)                                                                                                                          | Prestamype      | 16/06    |          |
 
 
 
